@@ -7,8 +7,8 @@ type: dataset
 authors:
   - name: Jah-yee
 repository-code: https://github.com/OpenKaggle/nemotron-evaluation-records
-url: https://github.com/OpenKaggle/nemotron-evaluation-records
-version: v1
+url: https://github.com/OpenKaggle/nemotron-evaluation-records/tree/snapshot-2026-09
+version: snapshot-2026-09
 date-released: 2026-09-28
 abstract: >-
   Content-minimized provenance and aggregate statistics for local Nemotron
