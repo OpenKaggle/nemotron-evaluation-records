@@ -1,0 +1,27 @@
+{
+  "path": "remote_trace_logprob_audit_v7_content64_from384_manifest/trace_manifest_first_gpu_audit.jsonl",
+  "sha256": "8137fc9ab8e13e443bcddbf3e9cbad39b0e1e96c0a66a6f9b04c44bc0e6aaa53",
+  "format": "jsonl",
+  "rows": 384,
+  "keys": [
+    "answer",
+    "completion",
+    "id",
+    "method",
+    "prompt",
+    "quality_flags",
+    "source",
+    "task_type"
+  ],
+  "key_counts": {
+    "answer": 384,
+    "completion": 384,
+    "id": 384,
+    "method": 384,
+    "prompt": 384,
+    "quality_flags": 384,
+    "source": 384,
+    "task_type": 384
+  },
+  "numeric": {}
+}

@@ -1,0 +1,27 @@
+{
+  "path": "trace_manifest_first_gpu_audit.jsonl",
+  "sha256": "2010babf264537884c5470948cef6b56ba0fd565b20e61c1484e9ffb9a0c3a80",
+  "format": "jsonl",
+  "rows": 1356,
+  "keys": [
+    "answer",
+    "completion",
+    "id",
+    "method",
+    "prompt",
+    "quality_flags",
+    "source",
+    "task_type"
+  ],
+  "key_counts": {
+    "answer": 1356,
+    "completion": 1356,
+    "id": 1356,
+    "method": 1356,
+    "prompt": 1356,
+    "quality_flags": 1356,
+    "source": 1356,
+    "task_type": 1356
+  },
+  "numeric": {}
+}

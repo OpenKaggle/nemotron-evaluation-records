@@ -1,0 +1,204 @@
+{
+  "path": "public_notebook_index.csv",
+  "sha256": "c5b9e9092c6d16d9224ad4e1ab91552e5c0db63b7396cc1474b4cd1e9030cc4f",
+  "format": "csv",
+  "rows": 41,
+  "columns": [
+    "source_root",
+    "notebook_dir",
+    "notebook_id",
+    "title",
+    "code_file",
+    "language",
+    "kernel_type",
+    "enable_gpu",
+    "enable_tpu",
+    "enable_internet",
+    "machine_shape",
+    "file_count",
+    "ipynb_count",
+    "py_count",
+    "json_count",
+    "cell_count",
+    "dataset_sources",
+    "model_sources",
+    "kernel_sources",
+    "competition_sources",
+    "kaggle_dataset_refs",
+    "kaggle_model_refs",
+    "kaggle_kernel_refs",
+    "kaggle_input_refs",
+    "github_urls",
+    "http_urls",
+    "matched_keywords",
+    "keyword_counts",
+    "parse_error_count",
+    "parse_errors"
+  ],
+  "numeric": {
+    "cell_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 96.0,
+      "mean": 11.682926829268293
+    },
+    "file_count": {
+      "count": 41,
+      "min": 2.0,
+      "max": 5.0,
+      "mean": 2.6097560975609757
+    },
+    "ipynb_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8292682926829268
+    },
+    "json_count": {
+      "count": 41,
+      "min": 1.0,
+      "max": 2.0,
+      "mean": 1.0975609756097562
+    },
+    "parse_error_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "py_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.6829268292682927
+    }
+  },
+  "text_lengths": {
+    "code_file": {
+      "count": 36,
+      "min": 18.0,
+      "max": 56.0,
+      "mean": 33.916666666666664
+    },
+    "competition_sources": {
+      "count": 34,
+      "min": 41.0,
+      "max": 41.0,
+      "mean": 41.0
+    },
+    "dataset_sources": {
+      "count": 17,
+      "min": 26.0,
+      "max": 310.0,
+      "mean": 112.23529411764706
+    },
+    "enable_gpu": {
+      "count": 39,
+      "min": 4.0,
+      "max": 5.0,
+      "mean": 4.358974358974359
+    },
+    "enable_internet": {
+      "count": 39,
+      "min": 4.0,
+      "max": 5.0,
+      "mean": 4.82051282051282
+    },
+    "enable_tpu": {
+      "count": 36,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "github_urls": {
+      "count": 13,
+      "min": 39.0,
+      "max": 146.0,
+      "mean": 76.07692307692308
+    },
+    "http_urls": {
+      "count": 17,
+      "min": 45.0,
+      "max": 530.0,
+      "mean": 157.94117647058823
+    },
+    "kaggle_dataset_refs": {
+      "count": 17,
+      "min": 26.0,
+      "max": 310.0,
+      "mean": 112.23529411764706
+    },
+    "kaggle_kernel_refs": {
+      "count": 21,
+      "min": 30.0,
+      "max": 338.0,
+      "mean": 92.14285714285714
+    },
+    "kaggle_model_refs": {
+      "count": 30,
+      "min": 48.0,
+      "max": 1094.0,
+      "mean": 144.63333333333333
+    },
+    "kernel_sources": {
+      "count": 19,
+      "min": 30.0,
+      "max": 338.0,
+      "mean": 78.3157894736842
+    },
+    "kernel_type": {
+      "count": 39,
+      "min": 6.0,
+      "max": 8.0,
+      "mean": 7.589743589743589
+    },
+    "keyword_counts": {
+      "count": 41,
+      "min": 10.0,
+      "max": 113.0,
+      "mean": 50.146341463414636
+    },
+    "language": {
+      "count": 41,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "machine_shape": {
+      "count": 37,
+      "min": 3.0,
+      "max": 16.0,
+      "mean": 11.594594594594595
+    },
+    "matched_keywords": {
+      "count": 41,
+      "min": 3.0,
+      "max": 68.0,
+      "mean": 29.682926829268293
+    },
+    "model_sources": {
+      "count": 30,
+      "min": 48.0,
+      "max": 1094.0,
+      "mean": 144.63333333333333
+    },
+    "notebook_dir": {
+      "count": 41,
+      "min": 38.0,
+      "max": 90.0,
+      "mean": 56.0
+    },
+    "source_root": {
+      "count": 41,
+      "min": 9.0,
+      "max": 24.0,
+      "mean": 15.536585365853659
+    },
+    "title": {
+      "count": 41,
+      "min": 8.0,
+      "max": 50.0,
+      "mean": 28.878048780487806
+    }
+  }
+}

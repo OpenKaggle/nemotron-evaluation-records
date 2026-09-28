@@ -1,0 +1,46 @@
+{
+  "path": "remote_trace_logprob_audit_v7_content384/run_config.json",
+  "sha256": "c9ba5f2ceffdac2d6eff080942e863fa52dad586514eb9224982c46ae66c1b8d",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "adapter_path",
+    "batch_size",
+    "content_skip_tokens",
+    "dry_run",
+    "job_filter",
+    "label_jsonl",
+    "limit_per_job",
+    "max_length",
+    "model_path",
+    "no_tokenizer",
+    "seed",
+    "train_csv"
+  ],
+  "numeric": {
+    "batch_size": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "limit_per_job": {
+      "count": 1,
+      "min": 64.0,
+      "max": 64.0,
+      "mean": 64.0
+    },
+    "max_length": {
+      "count": 1,
+      "min": 8192.0,
+      "max": 8192.0,
+      "mean": 8192.0
+    },
+    "seed": {
+      "count": 1,
+      "min": 42.0,
+      "max": 42.0,
+      "mean": 42.0
+    }
+  }
+}

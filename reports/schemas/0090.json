@@ -1,0 +1,86 @@
+{
+  "path": "public_audit_2026-06-06/penguin069__nemotron-dapo-05-06/adapter_config.json",
+  "sha256": "76a9dd871675b97c53f57ee181d4fb83353e1d4809bd24a255bcf13c3a9427c4",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "alora_invocation_tokens",
+    "alpha_pattern",
+    "alpha_pattern.in_proj",
+    "arrow_config",
+    "auto_mapping",
+    "base_model_name_or_path",
+    "bias",
+    "corda_config",
+    "ensure_weight_tying",
+    "eva_config",
+    "exclude_modules",
+    "fan_in_fan_out",
+    "inference_mode",
+    "init_lora_weights",
+    "layer_replication",
+    "layers_pattern",
+    "layers_to_transform",
+    "loftq_config",
+    "lora_alpha",
+    "lora_bias",
+    "lora_dropout",
+    "lora_ga_config",
+    "megatron_config",
+    "megatron_core",
+    "modules_to_save",
+    "peft_type",
+    "peft_version",
+    "qalora_group_size",
+    "r",
+    "rank_pattern",
+    "rank_pattern.in_proj",
+    "revision",
+    "target_modules",
+    "target_parameters",
+    "task_type",
+    "trainable_token_indices",
+    "use_bdlora",
+    "use_dora",
+    "use_qalora",
+    "use_rslora"
+  ],
+  "numeric": {
+    "alpha_pattern.in_proj": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "lora_alpha": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "lora_dropout": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "qalora_group_size": {
+      "count": 1,
+      "min": 16.0,
+      "max": 16.0,
+      "mean": 16.0
+    },
+    "r": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "rank_pattern.in_proj": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    }
+  }
+}

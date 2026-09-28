@@ -1,0 +1,167 @@
+{
+  "path": "public_audit_2026-06-06/profmansoor__nemotron-v34-path/trainer_state.json",
+  "sha256": "9ce5a51505e7bf5931ec22629825533d2c6bd3e3d833a6a36fc925be61bfd540",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "best_global_step",
+    "best_metric",
+    "best_model_checkpoint",
+    "epoch",
+    "eval_steps",
+    "global_step",
+    "is_hyper_param_search",
+    "is_local_process_zero",
+    "is_world_process_zero",
+    "log_history",
+    "log_history.epoch",
+    "log_history.eval_loss",
+    "log_history.eval_runtime",
+    "log_history.eval_samples_per_second",
+    "log_history.eval_steps_per_second",
+    "log_history.grad_norm",
+    "log_history.learning_rate",
+    "log_history.loss",
+    "log_history.step",
+    "logging_steps",
+    "max_steps",
+    "num_input_tokens_seen",
+    "num_train_epochs",
+    "save_steps",
+    "stateful_callbacks",
+    "stateful_callbacks.TrainerControl",
+    "stateful_callbacks.TrainerControl.args",
+    "stateful_callbacks.TrainerControl.args.should_epoch_stop",
+    "stateful_callbacks.TrainerControl.args.should_evaluate",
+    "stateful_callbacks.TrainerControl.args.should_log",
+    "stateful_callbacks.TrainerControl.args.should_save",
+    "stateful_callbacks.TrainerControl.args.should_training_stop",
+    "stateful_callbacks.TrainerControl.attributes",
+    "total_flos",
+    "train_batch_size",
+    "trial_name",
+    "trial_params"
+  ],
+  "numeric": {
+    "best_global_step": {
+      "count": 1,
+      "min": 175.0,
+      "max": 175.0,
+      "mean": 175.0
+    },
+    "best_metric": {
+      "count": 1,
+      "min": 3.197887897491455,
+      "max": 3.197887897491455,
+      "mean": 3.197887897491455
+    },
+    "epoch": {
+      "count": 1,
+      "min": 0.29673590504451036,
+      "max": 0.29673590504451036,
+      "mean": 0.29673590504451036
+    },
+    "eval_steps": {
+      "count": 1,
+      "min": 25.0,
+      "max": 25.0,
+      "mean": 25.0
+    },
+    "global_step": {
+      "count": 1,
+      "min": 175.0,
+      "max": 175.0,
+      "mean": 175.0
+    },
+    "log_history.epoch": {
+      "count": 42,
+      "min": 0.00847816871555744,
+      "max": 0.29673590504451036,
+      "mean": 0.15543309311855305
+    },
+    "log_history.eval_loss": {
+      "count": 7,
+      "min": 3.197887897491455,
+      "max": 5.053305625915527,
+      "mean": 3.7595059190477644
+    },
+    "log_history.eval_runtime": {
+      "count": 7,
+      "min": 39.8222,
+      "max": 40.1787,
+      "mean": 39.963885714285716
+    },
+    "log_history.eval_samples_per_second": {
+      "count": 7,
+      "min": 1.593,
+      "max": 1.607,
+      "mean": 1.6015714285714286
+    },
+    "log_history.eval_steps_per_second": {
+      "count": 7,
+      "min": 1.593,
+      "max": 1.607,
+      "mean": 1.6015714285714286
+    },
+    "log_history.grad_norm": {
+      "count": 35,
+      "min": 77.0533218383789,
+      "max": 319.0689392089844,
+      "mean": 128.6284190586635
+    },
+    "log_history.learning_rate": {
+      "count": 35,
+      "min": 1.517330670512629e-08,
+      "max": 5e-06,
+      "mean": 2.57776090080166e-06
+    },
+    "log_history.loss": {
+      "count": 35,
+      "min": 44.770693969726565,
+      "max": 92.14334106445312,
+      "mean": 61.603516060965404
+    },
+    "log_history.step": {
+      "count": 42,
+      "min": 5.0,
+      "max": 175.0,
+      "mean": 91.66666666666667
+    },
+    "logging_steps": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "max_steps": {
+      "count": 1,
+      "min": 180.0,
+      "max": 180.0,
+      "mean": 180.0
+    },
+    "num_train_epochs": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "save_steps": {
+      "count": 1,
+      "min": 25.0,
+      "max": 25.0,
+      "mean": 25.0
+    },
+    "total_flos": {
+      "count": 1,
+      "min": 7.851024354662323e+16,
+      "max": 7.851024354662323e+16,
+      "mean": 7.851024354662323e+16
+    },
+    "train_batch_size": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    }
+  }
+}

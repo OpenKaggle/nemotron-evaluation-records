@@ -1,0 +1,270 @@
+{
+  "path": "remote_trace_logprob_audit_v6_content64/trace_logprob_audit_summary.json",
+  "sha256": "2adcd65c268f68c926a4734cde692a5907a2319f79d71968490c12f8104a2881",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "by_source",
+    "by_source.bankoglu",
+    "by_source.donald",
+    "by_source.llkh0a",
+    "by_source.oracle",
+    "by_source.srivath",
+    "by_source.sybyrr_beta",
+    "by_source.tong",
+    "by_task_type",
+    "by_task_type.bit_manipulation",
+    "by_task_type.gravity_physics",
+    "by_task_type.numeral_system",
+    "by_task_type.symbolic_equation",
+    "by_task_type.text_cipher",
+    "by_task_type.unit_conversion",
+    "by_task_type.unknown",
+    "content_min_logprob",
+    "content_min_logprob.by_task_mean",
+    "content_min_logprob.by_task_mean.bit_manipulation",
+    "content_min_logprob.by_task_mean.gravity_physics",
+    "content_min_logprob.by_task_mean.numeral_system",
+    "content_min_logprob.by_task_mean.symbolic_equation",
+    "content_min_logprob.by_task_mean.text_cipher",
+    "content_min_logprob.by_task_mean.unit_conversion",
+    "content_min_logprob.by_task_mean.unknown",
+    "content_min_logprob.mean",
+    "content_min_logprob.min",
+    "content_min_logprob_worst_rows",
+    "content_min_logprob_worst_rows.content_mean_logprob",
+    "content_min_logprob_worst_rows.content_min_logprob",
+    "content_min_logprob_worst_rows.id",
+    "content_min_logprob_worst_rows.method",
+    "content_min_logprob_worst_rows.source",
+    "content_min_logprob_worst_rows.task_type",
+    "content_min_logprob_worst_rows.worst_context",
+    "content_min_logprob_worst_rows.worst_token_text",
+    "min_logprob",
+    "min_logprob.by_task_mean",
+    "min_logprob.by_task_mean.bit_manipulation",
+    "min_logprob.by_task_mean.gravity_physics",
+    "min_logprob.by_task_mean.numeral_system",
+    "min_logprob.by_task_mean.symbolic_equation",
+    "min_logprob.by_task_mean.text_cipher",
+    "min_logprob.by_task_mean.unit_conversion",
+    "min_logprob.by_task_mean.unknown",
+    "min_logprob.mean",
+    "min_logprob.min",
+    "min_logprob_worst_rows",
+    "min_logprob_worst_rows.id",
+    "min_logprob_worst_rows.mean_logprob",
+    "min_logprob_worst_rows.method",
+    "min_logprob_worst_rows.min_logprob",
+    "min_logprob_worst_rows.source",
+    "min_logprob_worst_rows.task_type",
+    "min_logprob_worst_rows.worst_context",
+    "min_logprob_worst_rows.worst_token_text",
+    "prefix_mismatch",
+    "quality_flags",
+    "quality_flags.boxed_appended",
+    "quality_flags.final_boxed_match",
+    "quality_flags.multiple_boxed",
+    "quality_flags.prompt_match",
+    "quality_flags.source_answer_match",
+    "rows",
+    "truncated",
+    "worst_rows",
+    "worst_rows.id",
+    "worst_rows.mean_logprob",
+    "worst_rows.method",
+    "worst_rows.min_logprob",
+    "worst_rows.source",
+    "worst_rows.task_type",
+    "worst_rows.worst_context",
+    "worst_rows.worst_token_text"
+  ],
+  "numeric": {
+    "by_source.bankoglu": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_source.donald": {
+      "count": 1,
+      "min": 4.0,
+      "max": 4.0,
+      "mean": 4.0
+    },
+    "by_source.llkh0a": {
+      "count": 1,
+      "min": 15.0,
+      "max": 15.0,
+      "mean": 15.0
+    },
+    "by_source.oracle": {
+      "count": 1,
+      "min": 18.0,
+      "max": 18.0,
+      "mean": 18.0
+    },
+    "by_source.srivath": {
+      "count": 1,
+      "min": 11.0,
+      "max": 11.0,
+      "mean": 11.0
+    },
+    "by_source.sybyrr_beta": {
+      "count": 1,
+      "min": 12.0,
+      "max": 12.0,
+      "mean": 12.0
+    },
+    "by_source.tong": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "by_task_type.bit_manipulation": {
+      "count": 1,
+      "min": 16.0,
+      "max": 16.0,
+      "mean": 16.0
+    },
+    "by_task_type.gravity_physics": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "by_task_type.numeral_system": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "by_task_type.symbolic_equation": {
+      "count": 1,
+      "min": 16.0,
+      "max": 16.0,
+      "mean": 16.0
+    },
+    "by_task_type.unit_conversion": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "by_task_type.unknown": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "min_logprob.by_task_mean.bit_manipulation": {
+      "count": 1,
+      "min": -17.572551727294922,
+      "max": -17.572551727294922,
+      "mean": -17.572551727294922
+    },
+    "min_logprob.by_task_mean.gravity_physics": {
+      "count": 1,
+      "min": -15.48525619506836,
+      "max": -15.48525619506836,
+      "mean": -15.48525619506836
+    },
+    "min_logprob.by_task_mean.numeral_system": {
+      "count": 1,
+      "min": -19.43308385213216,
+      "max": -19.43308385213216,
+      "mean": -19.43308385213216
+    },
+    "min_logprob.by_task_mean.symbolic_equation": {
+      "count": 1,
+      "min": -16.320415258407593,
+      "max": -16.320415258407593,
+      "mean": -16.320415258407593
+    },
+    "min_logprob.by_task_mean.unit_conversion": {
+      "count": 1,
+      "min": -15.711300373077393,
+      "max": -15.711300373077393,
+      "mean": -15.711300373077393
+    },
+    "min_logprob.by_task_mean.unknown": {
+      "count": 1,
+      "min": -15.503347873687744,
+      "max": -15.503347873687744,
+      "mean": -15.503347873687744
+    },
+    "min_logprob.mean": {
+      "count": 1,
+      "min": -17.513100937008858,
+      "max": -17.513100937008858,
+      "mean": -17.513100937008858
+    },
+    "min_logprob.min": {
+      "count": 1,
+      "min": -26.16148567199707,
+      "max": -26.16148567199707,
+      "mean": -26.16148567199707
+    },
+    "min_logprob_worst_rows.mean_logprob": {
+      "count": 20,
+      "min": -3.7225799560546875,
+      "max": -0.34263527393341064,
+      "mean": -1.8807917684316635
+    },
+    "min_logprob_worst_rows.min_logprob": {
+      "count": 20,
+      "min": -26.16148567199707,
+      "max": -19.9849853515625,
+      "mean": -22.614984130859376
+    },
+    "prefix_mismatch": {
+      "count": 1,
+      "min": 48.0,
+      "max": 48.0,
+      "mean": 48.0
+    },
+    "quality_flags.boxed_appended": {
+      "count": 1,
+      "min": 15.0,
+      "max": 15.0,
+      "mean": 15.0
+    },
+    "quality_flags.final_boxed_match": {
+      "count": 1,
+      "min": 49.0,
+      "max": 49.0,
+      "mean": 49.0
+    },
+    "quality_flags.multiple_boxed": {
+      "count": 1,
+      "min": 25.0,
+      "max": 25.0,
+      "mean": 25.0
+    },
+    "rows": {
+      "count": 1,
+      "min": 64.0,
+      "max": 64.0,
+      "mean": 64.0
+    },
+    "truncated": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "worst_rows.mean_logprob": {
+      "count": 20,
+      "min": -3.7225799560546875,
+      "max": -0.34263527393341064,
+      "mean": -1.8807917684316635
+    },
+    "worst_rows.min_logprob": {
+      "count": 20,
+      "min": -26.16148567199707,
+      "max": -19.9849853515625,
+      "mean": -22.614984130859376
+    }
+  }
+}

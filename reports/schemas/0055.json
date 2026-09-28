@@ -1,0 +1,66 @@
+{
+  "path": "huikang_nemo_valid_dryrun.csv",
+  "sha256": "d94909d152a6ea9ef29800be253a6eb93e9a578720d5c2cee048904f4acaeff2",
+  "format": "csv",
+  "rows": 5,
+  "columns": [
+    "id",
+    "source",
+    "task_type",
+    "method",
+    "answer",
+    "quality_flags",
+    "prompt_chars",
+    "completion_chars",
+    "prompt_token_len",
+    "completion_token_len",
+    "total_token_len",
+    "truncated",
+    "prefix_mismatch",
+    "pretokenized",
+    "mean_logprob",
+    "min_logprob",
+    "worst_token_index",
+    "worst_token_id",
+    "worst_token_text"
+  ],
+  "numeric": {},
+  "text_lengths": {
+    "method": {
+      "count": 5,
+      "min": 18.0,
+      "max": 18.0,
+      "mean": 18.0
+    },
+    "prefix_mismatch": {
+      "count": 5,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "quality_flags": {
+      "count": 5,
+      "min": 17.0,
+      "max": 30.0,
+      "mean": 24.8
+    },
+    "source": {
+      "count": 5,
+      "min": 27.0,
+      "max": 27.0,
+      "mean": 27.0
+    },
+    "task_type": {
+      "count": 5,
+      "min": 15.0,
+      "max": 15.0,
+      "mean": 15.0
+    },
+    "truncated": {
+      "count": 5,
+      "min": 4.0,
+      "max": 5.0,
+      "mean": 4.2
+    }
+  }
+}

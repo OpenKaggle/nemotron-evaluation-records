@@ -1,0 +1,42 @@
+{
+  "path": "verifier_reward_smoke.jsonl",
+  "sha256": "4ed09e2bdb817b6720cdca91691c5ed837672c50ed1a9a27a209af16d021445b",
+  "format": "jsonl",
+  "rows": 200,
+  "keys": [
+    "answer",
+    "completion",
+    "extracted_answer",
+    "flags",
+    "id",
+    "method",
+    "original_quality_flags",
+    "prompt",
+    "reward",
+    "source",
+    "task_type",
+    "terms"
+  ],
+  "key_counts": {
+    "answer": 200,
+    "completion": 200,
+    "extracted_answer": 200,
+    "flags": 200,
+    "id": 200,
+    "method": 200,
+    "original_quality_flags": 200,
+    "prompt": 200,
+    "reward": 200,
+    "source": 200,
+    "task_type": 200,
+    "terms": 200
+  },
+  "numeric": {
+    "reward": {
+      "count": 200,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    }
+  }
+}

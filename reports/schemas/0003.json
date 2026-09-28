@@ -1,0 +1,83 @@
+{
+  "path": "adapter_svd_soup_smoke.json",
+  "sha256": "c0eb62805aee908609fd88c91b296669d5bc968b74fd4fc7956effc945381e9d",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "actions",
+    "actions.anchor_copy",
+    "actions.error",
+    "actions.skipped",
+    "actions.svd",
+    "adapters",
+    "adapters.name",
+    "adapters.source",
+    "adapters.weight",
+    "anchor",
+    "errors",
+    "modules",
+    "modules.a_key",
+    "modules.action",
+    "modules.anchor_a_shape",
+    "modules.anchor_b_shape",
+    "modules.b_key",
+    "modules.incompatible_adapters",
+    "modules.module",
+    "modules.status",
+    "num_anchor_pairs",
+    "shape_policy",
+    "target_alpha",
+    "target_rank",
+    "target_scale"
+  ],
+  "numeric": {
+    "actions.anchor_copy": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "actions.error": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "actions.skipped": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "actions.svd": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "adapters.weight": {
+      "count": 2,
+      "min": 0.5,
+      "max": 0.5,
+      "mean": 0.5
+    },
+    "modules.anchor_a_shape": {
+      "count": 4,
+      "min": 32.0,
+      "max": 4096.0,
+      "mean": 1712.0
+    },
+    "modules.anchor_b_shape": {
+      "count": 4,
+      "min": 32.0,
+      "max": 10304.0,
+      "mean": 3264.0
+    },
+    "num_anchor_pairs": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    }
+  }
+}

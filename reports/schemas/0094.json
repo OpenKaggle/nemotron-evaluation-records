@@ -1,0 +1,13 @@
+{
+  "path": "public_audit_2026-06-06/profmansoor__nemotron-v34-path/V34_STATUS.json",
+  "sha256": "128977cc843cd475b08e86bf5639cf38ea3e1b319d7f220f74786068249d1b1c",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "model_dir",
+    "output_zip",
+    "start_adapter",
+    "state"
+  ],
+  "numeric": {}
+}

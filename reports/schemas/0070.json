@@ -1,0 +1,246 @@
+{
+  "path": "oracle_trace_report.json",
+  "sha256": "e7b78a09ae8fcc6e00ecbe095dd724cdfd7c919c5d479af0ee8293ad9fd6232a",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "base_accuracy",
+    "base_correct",
+    "by_family",
+    "by_family.bit_manipulation",
+    "by_family.bit_manipulation.base_accuracy",
+    "by_family.bit_manipulation.base_correct",
+    "by_family.bit_manipulation.methods",
+    "by_family.bit_manipulation.oracle_accuracy",
+    "by_family.bit_manipulation.oracle_correct",
+    "by_family.bit_manipulation.total",
+    "by_family.gravity_physics",
+    "by_family.gravity_physics.base_accuracy",
+    "by_family.gravity_physics.base_correct",
+    "by_family.gravity_physics.methods",
+    "by_family.gravity_physics.oracle_accuracy",
+    "by_family.gravity_physics.oracle_correct",
+    "by_family.gravity_physics.total",
+    "by_family.numeral_system",
+    "by_family.numeral_system.base_accuracy",
+    "by_family.numeral_system.base_correct",
+    "by_family.numeral_system.methods",
+    "by_family.numeral_system.oracle_accuracy",
+    "by_family.numeral_system.oracle_correct",
+    "by_family.numeral_system.total",
+    "by_family.symbolic_equation",
+    "by_family.symbolic_equation.base_accuracy",
+    "by_family.symbolic_equation.base_correct",
+    "by_family.symbolic_equation.methods",
+    "by_family.symbolic_equation.methods.cryptarithm_oracle",
+    "by_family.symbolic_equation.oracle_accuracy",
+    "by_family.symbolic_equation.oracle_correct",
+    "by_family.symbolic_equation.total",
+    "by_family.text_cipher",
+    "by_family.text_cipher.base_accuracy",
+    "by_family.text_cipher.base_correct",
+    "by_family.text_cipher.methods",
+    "by_family.text_cipher.oracle_accuracy",
+    "by_family.text_cipher.oracle_correct",
+    "by_family.text_cipher.total",
+    "by_family.unit_conversion",
+    "by_family.unit_conversion.base_accuracy",
+    "by_family.unit_conversion.base_correct",
+    "by_family.unit_conversion.methods",
+    "by_family.unit_conversion.oracle_accuracy",
+    "by_family.unit_conversion.oracle_correct",
+    "by_family.unit_conversion.total",
+    "oracle_accuracy",
+    "oracle_correct",
+    "total",
+    "trace_path"
+  ],
+  "numeric": {
+    "base_accuracy": {
+      "count": 1,
+      "min": 0.880421052631579,
+      "max": 0.880421052631579,
+      "mean": 0.880421052631579
+    },
+    "base_correct": {
+      "count": 1,
+      "min": 8364.0,
+      "max": 8364.0,
+      "mean": 8364.0
+    },
+    "by_family.bit_manipulation.base_accuracy": {
+      "count": 1,
+      "min": 0.898876404494382,
+      "max": 0.898876404494382,
+      "mean": 0.898876404494382
+    },
+    "by_family.bit_manipulation.base_correct": {
+      "count": 1,
+      "min": 1440.0,
+      "max": 1440.0,
+      "mean": 1440.0
+    },
+    "by_family.bit_manipulation.oracle_accuracy": {
+      "count": 1,
+      "min": 0.898876404494382,
+      "max": 0.898876404494382,
+      "mean": 0.898876404494382
+    },
+    "by_family.bit_manipulation.oracle_correct": {
+      "count": 1,
+      "min": 1440.0,
+      "max": 1440.0,
+      "mean": 1440.0
+    },
+    "by_family.bit_manipulation.total": {
+      "count": 1,
+      "min": 1602.0,
+      "max": 1602.0,
+      "mean": 1602.0
+    },
+    "by_family.gravity_physics.base_accuracy": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_family.gravity_physics.base_correct": {
+      "count": 1,
+      "min": 1597.0,
+      "max": 1597.0,
+      "mean": 1597.0
+    },
+    "by_family.gravity_physics.oracle_accuracy": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_family.gravity_physics.oracle_correct": {
+      "count": 1,
+      "min": 1597.0,
+      "max": 1597.0,
+      "mean": 1597.0
+    },
+    "by_family.gravity_physics.total": {
+      "count": 1,
+      "min": 1597.0,
+      "max": 1597.0,
+      "mean": 1597.0
+    },
+    "by_family.numeral_system.base_accuracy": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_family.numeral_system.base_correct": {
+      "count": 1,
+      "min": 1576.0,
+      "max": 1576.0,
+      "mean": 1576.0
+    },
+    "by_family.numeral_system.oracle_accuracy": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_family.numeral_system.oracle_correct": {
+      "count": 1,
+      "min": 1576.0,
+      "max": 1576.0,
+      "mean": 1576.0
+    },
+    "by_family.numeral_system.total": {
+      "count": 1,
+      "min": 1576.0,
+      "max": 1576.0,
+      "mean": 1576.0
+    },
+    "by_family.symbolic_equation.base_accuracy": {
+      "count": 1,
+      "min": 0.37363344051446945,
+      "max": 0.37363344051446945,
+      "mean": 0.37363344051446945
+    },
+    "by_family.symbolic_equation.base_correct": {
+      "count": 1,
+      "min": 581.0,
+      "max": 581.0,
+      "mean": 581.0
+    },
+    "by_family.symbolic_equation.methods.cryptarithm_oracle": {
+      "count": 1,
+      "min": 692.0,
+      "max": 692.0,
+      "mean": 692.0
+    },
+    "by_family.symbolic_equation.oracle_accuracy": {
+      "count": 1,
+      "min": 0.8186495176848875,
+      "max": 0.8186495176848875,
+      "mean": 0.8186495176848875
+    },
+    "by_family.symbolic_equation.oracle_correct": {
+      "count": 1,
+      "min": 1273.0,
+      "max": 1273.0,
+      "mean": 1273.0
+    },
+    "by_family.symbolic_equation.total": {
+      "count": 1,
+      "min": 1555.0,
+      "max": 1555.0,
+      "mean": 1555.0
+    },
+    "by_family.unit_conversion.base_accuracy": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_family.unit_conversion.base_correct": {
+      "count": 1,
+      "min": 1594.0,
+      "max": 1594.0,
+      "mean": 1594.0
+    },
+    "by_family.unit_conversion.oracle_accuracy": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_family.unit_conversion.oracle_correct": {
+      "count": 1,
+      "min": 1594.0,
+      "max": 1594.0,
+      "mean": 1594.0
+    },
+    "by_family.unit_conversion.total": {
+      "count": 1,
+      "min": 1594.0,
+      "max": 1594.0,
+      "mean": 1594.0
+    },
+    "oracle_accuracy": {
+      "count": 1,
+      "min": 0.9532631578947368,
+      "max": 0.9532631578947368,
+      "mean": 0.9532631578947368
+    },
+    "oracle_correct": {
+      "count": 1,
+      "min": 9056.0,
+      "max": 9056.0,
+      "mean": 9056.0
+    },
+    "total": {
+      "count": 1,
+      "min": 9500.0,
+      "max": 9500.0,
+      "mean": 9500.0
+    }
+  }
+}

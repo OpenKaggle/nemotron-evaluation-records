@@ -1,0 +1,57 @@
+{
+  "path": "public_audit_2026-06-06/foysalemonshanto__nemotron-cot-tong-submission/adapter_config.json",
+  "sha256": "68e8580b62a245fea25402c157af4e6c18e66eba6c8b5ba7bcf885c400569802",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "alpha_pattern",
+    "alpha_pattern.in_proj",
+    "auto_mapping",
+    "base_model_name_or_path",
+    "bias",
+    "fan_in_fan_out",
+    "inference_mode",
+    "init_lora_weights",
+    "lora_alpha",
+    "lora_dropout",
+    "modules_to_save",
+    "peft_type",
+    "r",
+    "rank_pattern",
+    "rank_pattern.in_proj",
+    "target_modules",
+    "task_type"
+  ],
+  "numeric": {
+    "alpha_pattern.in_proj": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "lora_alpha": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "lora_dropout": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "r": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "rank_pattern.in_proj": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "path": "dpo_pairs_smoke.jsonl",
+  "sha256": "f068994bd39b20bc604f75936da17bebfc52a63dfec73591dbf40575154a70df",
+  "format": "jsonl",
+  "rows": 100,
+  "keys": [
+    "answer",
+    "chosen",
+    "chosen_flags",
+    "chosen_reward",
+    "chosen_source",
+    "id",
+    "margin",
+    "prompt",
+    "provided_correctness",
+    "rejected",
+    "rejected_flags",
+    "rejected_reward",
+    "rejected_source",
+    "task_type"
+  ],
+  "key_counts": {
+    "answer": 100,
+    "chosen": 100,
+    "chosen_flags": 100,
+    "chosen_reward": 100,
+    "chosen_source": 100,
+    "id": 100,
+    "margin": 100,
+    "prompt": 100,
+    "provided_correctness": 100,
+    "rejected": 100,
+    "rejected_flags": 100,
+    "rejected_reward": 100,
+    "rejected_source": 100,
+    "task_type": 100
+  },
+  "numeric": {
+    "chosen_reward": {
+      "count": 100,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "margin": {
+      "count": 100,
+      "min": 0.61,
+      "max": 1.0,
+      "mean": 0.9140999999999999
+    },
+    "rejected_reward": {
+      "count": 100,
+      "min": 0.0,
+      "max": 0.39,
+      "mean": 0.0859
+    }
+  }
+}

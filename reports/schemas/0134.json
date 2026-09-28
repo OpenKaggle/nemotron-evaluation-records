@@ -1,0 +1,33 @@
+{
+  "path": "remote_trace_logprob_audit_v7_content384/discovery_report.json",
+  "sha256": "64ed5f4dd4311646b2c6a5dc1ed705be3e52d1d23c8b9d30f4eebdc05073daa2",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "job_filter",
+    "jobs",
+    "jobs.dataset",
+    "jobs.kind",
+    "jobs.label",
+    "jobs.path",
+    "jobs.require_answer",
+    "jobs.require_prompt",
+    "jobs.task_type",
+    "label_jsonl",
+    "limit_per_job",
+    "notes",
+    "notes.dataset",
+    "notes.reason",
+    "notes.roots",
+    "notes.skipped",
+    "train_csv"
+  ],
+  "numeric": {
+    "limit_per_job": {
+      "count": 1,
+      "min": 64.0,
+      "max": 64.0,
+      "mean": 64.0
+    }
+  }
+}

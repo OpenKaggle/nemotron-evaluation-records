@@ -1,0 +1,41 @@
+{
+  "path": "public_audit_2026-06-06/wethepeople918__sigilagi-nemotron-rank32-adapter/dataset-metadata.json",
+  "sha256": "26fa45b59dc08b79aec28a60bbda26d8bae71ececdf037b2cddbeca8a08ffb22",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "info",
+    "info.datasetId",
+    "info.datasetSlug",
+    "info.description",
+    "info.expectedUpdateFrequency",
+    "info.licenses",
+    "info.licenses.name",
+    "info.ownerUser",
+    "info.subtitle",
+    "info.title",
+    "info.totalDownloads",
+    "info.totalViews",
+    "info.usabilityRating"
+  ],
+  "numeric": {
+    "info.totalDownloads": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "info.totalViews": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "info.usabilityRating": {
+      "count": 1,
+      "min": 0.3125,
+      "max": 0.3125,
+      "mean": 0.3125
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "path": "hard_tail_smoke_summary.json",
+  "sha256": "2720fad8829a19111c4cd9daa3079a6cc0da997b484cde9d800cdd2933035e6a",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "audit_rows",
+    "holdout_rows",
+    "score",
+    "score.mean",
+    "score.min",
+    "score.p01",
+    "score.p05",
+    "score.p50",
+    "selected_by_source",
+    "selected_by_source.nemo_jsonl:nemo_valid.jsonl",
+    "selected_by_task_type",
+    "selected_by_task_type.huikang_14class",
+    "selected_quality_flags",
+    "selected_quality_flags.pretokenized_nemo",
+    "selected_rows",
+    "selected_worst_tokens",
+    "selected_worst_tokens.count",
+    "selected_worst_tokens.worst_token_text",
+    "worst_selected_rows",
+    "worst_selected_rows.id",
+    "worst_selected_rows.manifest_match",
+    "worst_selected_rows.mean_logprob",
+    "worst_selected_rows.method",
+    "worst_selected_rows.min_logprob",
+    "worst_selected_rows.source",
+    "worst_selected_rows.task_type",
+    "worst_selected_rows.worst_context",
+    "worst_selected_rows.worst_token_text"
+  ],
+  "numeric": {
+    "audit_rows": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "holdout_rows": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "score.mean": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "score.min": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "score.p01": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "score.p05": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "score.p50": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "selected_by_task_type.huikang_14class": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "selected_rows": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "worst_selected_rows.mean_logprob": {
+      "count": 1,
+      "min": -0.223429337143898,
+      "max": -0.223429337143898,
+      "mean": -0.223429337143898
+    },
+    "worst_selected_rows.min_logprob": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    }
+  }
+}

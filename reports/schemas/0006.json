@@ -1,0 +1,60 @@
+{
+  "path": "data_summary.json",
+  "sha256": "032e1caf2652175fbadda93e3afa8dac575469aa659a918cf6d6005f4b31f680",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "answer_length_top",
+    "answer_types",
+    "columns",
+    "columns.test",
+    "columns.train",
+    "overlap",
+    "overlap.all_sample_test_ids_in_train",
+    "overlap.test_ids_in_train",
+    "overlap.test_prompts_in_train",
+    "overlap.test_rows",
+    "rows",
+    "rows.test_sample",
+    "rows.train",
+    "sample_test_matches",
+    "sample_test_matches.answer",
+    "sample_test_matches.id",
+    "sample_test_matches.same_prompt",
+    "sample_test_matches.task_type",
+    "test_task_types",
+    "train_task_types"
+  ],
+  "numeric": {
+    "overlap.test_rows": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "rows.test_sample": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "rows.train": {
+      "count": 1,
+      "min": 9500.0,
+      "max": 9500.0,
+      "mean": 9500.0
+    },
+    "test_task_types": {
+      "count": 2,
+      "min": 1.0,
+      "max": 2.0,
+      "mean": 1.5
+    },
+    "train_task_types": {
+      "count": 6,
+      "min": 1555.0,
+      "max": 1602.0,
+      "mean": 1583.3333333333333
+    }
+  }
+}

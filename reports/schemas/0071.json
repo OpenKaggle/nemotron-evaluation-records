@@ -1,0 +1,15 @@
+{
+  "path": "prompt_family_samples.json",
+  "sha256": "5c4c263f88c6bf3439fc8a6ffaf43e61340bd494589f41022f258d85486e8c1c",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "bit_manipulation",
+    "gravity_physics",
+    "numeral_system",
+    "symbolic_equation",
+    "text_cipher",
+    "unit_conversion"
+  ],
+  "numeric": {}
+}

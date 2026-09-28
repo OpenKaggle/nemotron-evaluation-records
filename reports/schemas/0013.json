@@ -1,0 +1,72 @@
+{
+  "path": "hard_tail_smoke.jsonl",
+  "sha256": "5ea788d71e22df04197eadcace9813ec2dff5a7fbd91be9a8a5d9c58d6362458",
+  "format": "jsonl",
+  "rows": 1,
+  "keys": [
+    "answer",
+    "completion_chars",
+    "completion_token_len",
+    "hard_tail_score",
+    "id",
+    "mean_logprob",
+    "method",
+    "min_logprob",
+    "prefix_mismatch",
+    "pretokenized",
+    "prompt_chars",
+    "prompt_token_len",
+    "quality_flags",
+    "source",
+    "task_type",
+    "total_token_len",
+    "truncated",
+    "worst_context",
+    "worst_token_id",
+    "worst_token_index",
+    "worst_token_text"
+  ],
+  "key_counts": {
+    "answer": 1,
+    "completion_chars": 1,
+    "completion_token_len": 1,
+    "hard_tail_score": 1,
+    "id": 1,
+    "mean_logprob": 1,
+    "method": 1,
+    "min_logprob": 1,
+    "prefix_mismatch": 1,
+    "pretokenized": 1,
+    "prompt_chars": 1,
+    "prompt_token_len": 1,
+    "quality_flags": 1,
+    "source": 1,
+    "task_type": 1,
+    "total_token_len": 1,
+    "truncated": 1,
+    "worst_context": 1,
+    "worst_token_id": 1,
+    "worst_token_index": 1,
+    "worst_token_text": 1
+  },
+  "numeric": {
+    "hard_tail_score": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "mean_logprob": {
+      "count": 1,
+      "min": -0.223429337143898,
+      "max": -0.223429337143898,
+      "mean": -0.223429337143898
+    },
+    "min_logprob": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    }
+  }
+}

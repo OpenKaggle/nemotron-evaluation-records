@@ -1,0 +1,593 @@
+{
+  "path": "kienngx_tiny_inproj_alpha0p5_audit.json",
+  "sha256": "e558001f47fdc770b40c556e39ce6aaf589563ff8fa738a7e0028151209999b0",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "candidate",
+    "candidate.categories",
+    "candidate.categories.down_proj.lora_A",
+    "candidate.categories.down_proj.lora_B",
+    "candidate.categories.experts.down_proj.lora_A",
+    "candidate.categories.experts.down_proj.lora_B",
+    "candidate.categories.experts.up_proj.lora_A",
+    "candidate.categories.experts.up_proj.lora_B",
+    "candidate.categories.in_proj.lora_A",
+    "candidate.categories.in_proj.lora_B",
+    "candidate.categories.k_proj.lora_A",
+    "candidate.categories.k_proj.lora_B",
+    "candidate.categories.lm_head.lora_A",
+    "candidate.categories.lm_head.lora_B",
+    "candidate.categories.o_proj.lora_A",
+    "candidate.categories.o_proj.lora_B",
+    "candidate.categories.out_proj.lora_A",
+    "candidate.categories.out_proj.lora_B",
+    "candidate.categories.q_proj.lora_A",
+    "candidate.categories.q_proj.lora_B",
+    "candidate.categories.up_proj.lora_A",
+    "candidate.categories.up_proj.lora_B",
+    "candidate.categories.v_proj.lora_A",
+    "candidate.categories.v_proj.lora_B",
+    "candidate.config",
+    "candidate.config.alpha_pattern",
+    "candidate.config.alpha_pattern.in_proj",
+    "candidate.config.base_model_name_or_path",
+    "candidate.config.has_target_parameters",
+    "candidate.config.lora_alpha",
+    "candidate.config.r",
+    "candidate.config.rank_pattern",
+    "candidate.config.rank_pattern.in_proj",
+    "candidate.config.target_modules",
+    "candidate.num_tensors",
+    "candidate.top_shapes",
+    "comparison",
+    "comparison.experts.down_proj.lora_B",
+    "comparison.experts.down_proj.lora_B.count",
+    "comparison.experts.down_proj.lora_B.matched",
+    "comparison.experts.down_proj.lora_B.max_cos",
+    "comparison.experts.down_proj.lora_B.mean_abs_delta",
+    "comparison.experts.down_proj.lora_B.mean_cos",
+    "comparison.experts.down_proj.lora_B.min_cos",
+    "comparison.experts.down_proj.lora_B.missing",
+    "comparison.experts.down_proj.lora_B.shape_mismatch",
+    "comparison.experts.up_proj.lora_A",
+    "comparison.experts.up_proj.lora_A.count",
+    "comparison.experts.up_proj.lora_A.matched",
+    "comparison.experts.up_proj.lora_A.max_cos",
+    "comparison.experts.up_proj.lora_A.mean_abs_delta",
+    "comparison.experts.up_proj.lora_A.mean_cos",
+    "comparison.experts.up_proj.lora_A.min_cos",
+    "comparison.experts.up_proj.lora_A.missing",
+    "comparison.experts.up_proj.lora_A.shape_mismatch",
+    "comparison.in_proj.lora_A",
+    "comparison.in_proj.lora_A.count",
+    "comparison.in_proj.lora_A.matched",
+    "comparison.in_proj.lora_A.max_cos",
+    "comparison.in_proj.lora_A.mean_abs_delta",
+    "comparison.in_proj.lora_A.mean_cos",
+    "comparison.in_proj.lora_A.min_cos",
+    "comparison.in_proj.lora_A.missing",
+    "comparison.in_proj.lora_A.shape_mismatch",
+    "comparison.in_proj.lora_B",
+    "comparison.in_proj.lora_B.count",
+    "comparison.in_proj.lora_B.matched",
+    "comparison.in_proj.lora_B.max_cos",
+    "comparison.in_proj.lora_B.mean_abs_delta",
+    "comparison.in_proj.lora_B.mean_cos",
+    "comparison.in_proj.lora_B.min_cos",
+    "comparison.in_proj.lora_B.missing",
+    "comparison.in_proj.lora_B.shape_mismatch",
+    "comparison.lm_head.lora_A",
+    "comparison.lm_head.lora_A.count",
+    "comparison.lm_head.lora_A.matched",
+    "comparison.lm_head.lora_A.max_cos",
+    "comparison.lm_head.lora_A.mean_abs_delta",
+    "comparison.lm_head.lora_A.mean_cos",
+    "comparison.lm_head.lora_A.min_cos",
+    "comparison.lm_head.lora_A.missing",
+    "comparison.lm_head.lora_A.shape_mismatch",
+    "comparison.lm_head.lora_B",
+    "comparison.lm_head.lora_B.count",
+    "comparison.lm_head.lora_B.matched",
+    "comparison.lm_head.lora_B.max_cos",
+    "comparison.lm_head.lora_B.mean_abs_delta",
+    "comparison.lm_head.lora_B.mean_cos",
+    "comparison.lm_head.lora_B.min_cos",
+    "comparison.lm_head.lora_B.missing",
+    "comparison.lm_head.lora_B.shape_mismatch",
+    "reference",
+    "reference.categories",
+    "reference.categories.down_proj.lora_A",
+    "reference.categories.down_proj.lora_B",
+    "reference.categories.experts.down_proj.lora_A",
+    "reference.categories.experts.down_proj.lora_B",
+    "reference.categories.experts.up_proj.lora_A",
+    "reference.categories.experts.up_proj.lora_B",
+    "reference.categories.in_proj.lora_A",
+    "reference.categories.in_proj.lora_B",
+    "reference.categories.k_proj.lora_A",
+    "reference.categories.k_proj.lora_B",
+    "reference.categories.lm_head.lora_A",
+    "reference.categories.lm_head.lora_B",
+    "reference.categories.o_proj.lora_A",
+    "reference.categories.o_proj.lora_B",
+    "reference.categories.out_proj.lora_A",
+    "reference.categories.out_proj.lora_B",
+    "reference.categories.q_proj.lora_A",
+    "reference.categories.q_proj.lora_B",
+    "reference.categories.up_proj.lora_A",
+    "reference.categories.up_proj.lora_B",
+    "reference.categories.v_proj.lora_A",
+    "reference.categories.v_proj.lora_B",
+    "reference.config",
+    "reference.config.alpha_pattern",
+    "reference.config.alpha_pattern.in_proj",
+    "reference.config.base_model_name_or_path",
+    "reference.config.has_target_parameters",
+    "reference.config.lora_alpha",
+    "reference.config.r",
+    "reference.config.rank_pattern",
+    "reference.config.rank_pattern.in_proj",
+    "reference.config.target_modules",
+    "reference.num_tensors",
+    "reference.top_shapes"
+  ],
+  "numeric": {
+    "comparison.experts.down_proj.lora_B.count": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "comparison.experts.down_proj.lora_B.matched": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "comparison.experts.down_proj.lora_B.max_cos": {
+      "count": 1,
+      "min": 1.0000030994415283,
+      "max": 1.0000030994415283,
+      "mean": 1.0000030994415283
+    },
+    "comparison.experts.down_proj.lora_B.mean_abs_delta": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.experts.down_proj.lora_B.mean_cos": {
+      "count": 1,
+      "min": 1.0000011324882507,
+      "max": 1.0000011324882507,
+      "mean": 1.0000011324882507
+    },
+    "comparison.experts.down_proj.lora_B.min_cos": {
+      "count": 1,
+      "min": 0.9999995231628418,
+      "max": 0.9999995231628418,
+      "mean": 0.9999995231628418
+    },
+    "comparison.experts.down_proj.lora_B.missing": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.experts.down_proj.lora_B.shape_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.experts.up_proj.lora_A.count": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "comparison.experts.up_proj.lora_A.matched": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "comparison.experts.up_proj.lora_A.max_cos": {
+      "count": 1,
+      "min": 1.000003457069397,
+      "max": 1.000003457069397,
+      "mean": 1.000003457069397
+    },
+    "comparison.experts.up_proj.lora_A.mean_abs_delta": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.experts.up_proj.lora_A.mean_cos": {
+      "count": 1,
+      "min": 1.0000012205994648,
+      "max": 1.0000012205994648,
+      "mean": 1.0000012205994648
+    },
+    "comparison.experts.up_proj.lora_A.min_cos": {
+      "count": 1,
+      "min": 0.9999994039535522,
+      "max": 0.9999994039535522,
+      "mean": 0.9999994039535522
+    },
+    "comparison.experts.up_proj.lora_A.missing": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.experts.up_proj.lora_A.shape_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.in_proj.lora_A.count": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "comparison.in_proj.lora_A.matched": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "comparison.in_proj.lora_A.max_cos": {
+      "count": 1,
+      "min": 0.9999898672103882,
+      "max": 0.9999898672103882,
+      "mean": 0.9999898672103882
+    },
+    "comparison.in_proj.lora_A.mean_abs_delta": {
+      "count": 1,
+      "min": 3.986537906356439e-05,
+      "max": 3.986537906356439e-05,
+      "mean": 3.986537906356439e-05
+    },
+    "comparison.in_proj.lora_A.mean_cos": {
+      "count": 1,
+      "min": 0.999985731166342,
+      "max": 0.999985731166342,
+      "mean": 0.999985731166342
+    },
+    "comparison.in_proj.lora_A.min_cos": {
+      "count": 1,
+      "min": 0.9999820590019226,
+      "max": 0.9999820590019226,
+      "mean": 0.9999820590019226
+    },
+    "comparison.in_proj.lora_A.missing": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.in_proj.lora_A.shape_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.in_proj.lora_B.count": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "comparison.in_proj.lora_B.matched": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "comparison.in_proj.lora_B.max_cos": {
+      "count": 1,
+      "min": 0.9999794363975525,
+      "max": 0.9999794363975525,
+      "mean": 0.9999794363975525
+    },
+    "comparison.in_proj.lora_B.mean_abs_delta": {
+      "count": 1,
+      "min": 3.853596195846836e-05,
+      "max": 3.853596195846836e-05,
+      "mean": 3.853596195846836e-05
+    },
+    "comparison.in_proj.lora_B.mean_cos": {
+      "count": 1,
+      "min": 0.9999653204627659,
+      "max": 0.9999653204627659,
+      "mean": 0.9999653204627659
+    },
+    "comparison.in_proj.lora_B.min_cos": {
+      "count": 1,
+      "min": 0.9999585151672363,
+      "max": 0.9999585151672363,
+      "mean": 0.9999585151672363
+    },
+    "comparison.in_proj.lora_B.missing": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.in_proj.lora_B.shape_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.lm_head.lora_A.count": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "comparison.lm_head.lora_A.matched": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "comparison.lm_head.lora_A.max_cos": {
+      "count": 1,
+      "min": 1.0000007152557373,
+      "max": 1.0000007152557373,
+      "mean": 1.0000007152557373
+    },
+    "comparison.lm_head.lora_A.mean_abs_delta": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.lm_head.lora_A.mean_cos": {
+      "count": 1,
+      "min": 1.0000007152557373,
+      "max": 1.0000007152557373,
+      "mean": 1.0000007152557373
+    },
+    "comparison.lm_head.lora_A.min_cos": {
+      "count": 1,
+      "min": 1.0000007152557373,
+      "max": 1.0000007152557373,
+      "mean": 1.0000007152557373
+    },
+    "comparison.lm_head.lora_A.missing": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.lm_head.lora_A.shape_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.lm_head.lora_B.count": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "comparison.lm_head.lora_B.matched": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "comparison.lm_head.lora_B.max_cos": {
+      "count": 1,
+      "min": 1.0000319480895996,
+      "max": 1.0000319480895996,
+      "mean": 1.0000319480895996
+    },
+    "comparison.lm_head.lora_B.mean_abs_delta": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.lm_head.lora_B.mean_cos": {
+      "count": 1,
+      "min": 1.0000319480895996,
+      "max": 1.0000319480895996,
+      "mean": 1.0000319480895996
+    },
+    "comparison.lm_head.lora_B.min_cos": {
+      "count": 1,
+      "min": 1.0000319480895996,
+      "max": 1.0000319480895996,
+      "mean": 1.0000319480895996
+    },
+    "comparison.lm_head.lora_B.missing": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "comparison.lm_head.lora_B.shape_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "reference.categories.down_proj.lora_A": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.down_proj.lora_B": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.experts.down_proj.lora_A": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "reference.categories.experts.down_proj.lora_B": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "reference.categories.experts.up_proj.lora_A": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "reference.categories.experts.up_proj.lora_B": {
+      "count": 1,
+      "min": 2944.0,
+      "max": 2944.0,
+      "mean": 2944.0
+    },
+    "reference.categories.in_proj.lora_A": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.in_proj.lora_B": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.k_proj.lora_A": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.categories.k_proj.lora_B": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.categories.lm_head.lora_A": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "reference.categories.lm_head.lora_B": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "reference.categories.o_proj.lora_A": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.categories.o_proj.lora_B": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.categories.out_proj.lora_A": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.out_proj.lora_B": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.q_proj.lora_A": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.categories.q_proj.lora_B": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.categories.up_proj.lora_A": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.up_proj.lora_B": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "reference.categories.v_proj.lora_A": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.categories.v_proj.lora_B": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "reference.config.alpha_pattern.in_proj": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "reference.config.lora_alpha": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "reference.config.r": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "reference.config.rank_pattern.in_proj": {
+      "count": 1,
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0
+    },
+    "reference.num_tensors": {
+      "count": 1,
+      "min": 12010.0,
+      "max": 12010.0,
+      "mean": 12010.0
+    },
+    "reference.top_shapes": {
+      "count": 11,
+      "min": 1.0,
+      "max": 3009.0,
+      "mean": 1091.8181818181818
+    }
+  }
+}

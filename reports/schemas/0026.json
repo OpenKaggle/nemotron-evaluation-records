@@ -1,0 +1,64 @@
+{
+  "path": "hard_tail_v5_64_strict_decision.json",
+  "sha256": "cbab3af1c3ec3db4292a4cf96335dbd47f8cf9476cce1e29ef835c682a84141b",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "chosen_path",
+    "next_step",
+    "recommendation",
+    "scores",
+    "scores.adapter_arithmetic",
+    "scores.adapter_arithmetic.evidence",
+    "scores.adapter_arithmetic.evidence.reason",
+    "scores.adapter_arithmetic.evidence.selected_rows",
+    "scores.adapter_arithmetic.score",
+    "scores.bit_repair",
+    "scores.bit_repair.evidence",
+    "scores.bit_repair.evidence.context_hits",
+    "scores.bit_repair.evidence.source_rows",
+    "scores.bit_repair.evidence.task_rows",
+    "scores.bit_repair.evidence.top_sources",
+    "scores.bit_repair.score",
+    "scores.formatting_repair",
+    "scores.formatting_repair.evidence",
+    "scores.formatting_repair.evidence.context_hits",
+    "scores.formatting_repair.evidence.quality_flag_rows",
+    "scores.formatting_repair.evidence.top_flags",
+    "scores.formatting_repair.evidence.top_tokens",
+    "scores.formatting_repair.score",
+    "scores.symbolic_operator",
+    "scores.symbolic_operator.evidence",
+    "scores.symbolic_operator.evidence.context_hits",
+    "scores.symbolic_operator.evidence.task_rows",
+    "scores.symbolic_operator.evidence.top_tasks",
+    "scores.symbolic_operator.score",
+    "summary"
+  ],
+  "numeric": {
+    "scores.adapter_arithmetic.score": {
+      "count": 1,
+      "min": 0.05,
+      "max": 0.05,
+      "mean": 0.05
+    },
+    "scores.bit_repair.score": {
+      "count": 1,
+      "min": 0.8,
+      "max": 0.8,
+      "mean": 0.8
+    },
+    "scores.formatting_repair.score": {
+      "count": 1,
+      "min": 0.8545454545454545,
+      "max": 0.8545454545454545,
+      "mean": 0.8545454545454545
+    },
+    "scores.symbolic_operator.score": {
+      "count": 1,
+      "min": 0.1909090909090909,
+      "max": 0.1909090909090909,
+      "mean": 0.1909090909090909
+    }
+  }
+}

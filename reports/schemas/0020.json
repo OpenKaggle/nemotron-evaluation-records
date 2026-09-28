@@ -1,0 +1,64 @@
+{
+  "path": "hard_tail_v5_64_diagnostic_decision.json",
+  "sha256": "63fb3907b0f2f21690d7644ce26847714c0052022fbee50eda0d8571d658bc9c",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "chosen_path",
+    "next_step",
+    "recommendation",
+    "scores",
+    "scores.adapter_arithmetic",
+    "scores.adapter_arithmetic.evidence",
+    "scores.adapter_arithmetic.evidence.reason",
+    "scores.adapter_arithmetic.evidence.selected_rows",
+    "scores.adapter_arithmetic.score",
+    "scores.bit_repair",
+    "scores.bit_repair.evidence",
+    "scores.bit_repair.evidence.context_hits",
+    "scores.bit_repair.evidence.source_rows",
+    "scores.bit_repair.evidence.task_rows",
+    "scores.bit_repair.evidence.top_sources",
+    "scores.bit_repair.score",
+    "scores.formatting_repair",
+    "scores.formatting_repair.evidence",
+    "scores.formatting_repair.evidence.context_hits",
+    "scores.formatting_repair.evidence.quality_flag_rows",
+    "scores.formatting_repair.evidence.top_flags",
+    "scores.formatting_repair.evidence.top_tokens",
+    "scores.formatting_repair.score",
+    "scores.symbolic_operator",
+    "scores.symbolic_operator.evidence",
+    "scores.symbolic_operator.evidence.context_hits",
+    "scores.symbolic_operator.evidence.task_rows",
+    "scores.symbolic_operator.evidence.top_tasks",
+    "scores.symbolic_operator.score",
+    "summary"
+  ],
+  "numeric": {
+    "scores.adapter_arithmetic.score": {
+      "count": 1,
+      "min": 0.05,
+      "max": 0.05,
+      "mean": 0.05
+    },
+    "scores.bit_repair.score": {
+      "count": 1,
+      "min": 0.4675438596491228,
+      "max": 0.4675438596491228,
+      "mean": 0.4675438596491228
+    },
+    "scores.formatting_repair.score": {
+      "count": 1,
+      "min": 0.7933333333333332,
+      "max": 0.7933333333333332,
+      "mean": 0.7933333333333332
+    },
+    "scores.symbolic_operator.score": {
+      "count": 1,
+      "min": 0.40315789473684205,
+      "max": 0.40315789473684205,
+      "mean": 0.40315789473684205
+    }
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "path": "public_notebook_index.json",
+  "sha256": "51b6cc44f274a4c53297a9e235bc2a5133013e6cda8deee268126079f2dd6f9e",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "entries",
+    "entries.cell_count",
+    "entries.cell_counts",
+    "entries.cell_counts.code",
+    "entries.cell_counts.markdown",
+    "entries.code_file",
+    "entries.competition_sources",
+    "entries.dataset_sources",
+    "entries.dir_name",
+    "entries.docker_image",
+    "entries.enable_gpu",
+    "entries.enable_internet",
+    "entries.enable_tpu",
+    "entries.file_count",
+    "entries.file_counts",
+    "entries.file_counts.ipynb",
+    "entries.file_counts.json",
+    "entries.file_counts.py",
+    "entries.files",
+    "entries.github_urls",
+    "entries.http_urls",
+    "entries.id_no",
+    "entries.ipynb_count",
+    "entries.json_count",
+    "entries.kaggle_data_sources_raw",
+    "entries.kaggle_data_sources_raw.databundleVersionId",
+    "entries.kaggle_data_sources_raw.file",
+    "entries.kaggle_data_sources_raw.isSourceIdPinned",
+    "entries.kaggle_data_sources_raw.modelId",
+    "entries.kaggle_data_sources_raw.modelInstanceId",
+    "entries.kaggle_data_sources_raw.sourceId",
+    "entries.kaggle_data_sources_raw.sourceType",
+    "entries.kaggle_dataset_refs",
+    "entries.kaggle_input_refs",
+    "entries.kaggle_kernel_refs",
+    "entries.kaggle_model_refs",
+    "entries.kernel_sources",
+    "entries.kernel_type",
+    "entries.keyword_counts",
+    "entries.keyword_counts.CoT",
+    "entries.keyword_counts.DARE",
+    "entries.keyword_counts.GRPO",
+    "entries.keyword_counts.LoRA",
+    "entries.keyword_counts.SFT",
+    "entries.keyword_counts.SVD",
+    "entries.keyword_counts.TIES",
+    "entries.keyword_counts.adapter",
+    "entries.keyword_counts.ensemble",
+    "entries.keyword_counts.logprob",
+    "entries.keyword_counts.merge",
+    "entries.keyword_counts.min_logprob",
+    "entries.keyword_counts.reward",
+    "entries.keyword_counts.router",
+    "entries.keyword_counts.verifier",
+    "entries.language",
+    "entries.machine_shape",
+    "entries.matched_keywords",
+    "entries.metadata_keywords",
+    "entries.model_sources",
+    "entries.notebook_dir",
+    "entries.notebook_id",
+    "entries.notebook_metadata",
+    "entries.notebook_metadata.ipynb",
+    "entries.notebook_metadata.ipynb.cell_count",
+    "entries.notebook_metadata.ipynb.cell_counts",
+    "entries.notebook_metadata.ipynb.cell_counts.code",
+    "entries.notebook_metadata.ipynb.cell_counts.markdown",
+    "entries.notebook_metadata.ipynb.file",
+    "entries.notebook_metadata.ipynb.kaggle",
+    "entries.notebook_metadata.ipynb.kaggle.accelerator",
+    "entries.notebook_metadata.ipynb.kaggle.competition_sources",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.databundleVersionId",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.datasetId",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.isSourceIdPinned",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.modelId",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.modelInstanceId",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.mountSlug",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.sourceId",
+    "entries.notebook_metadata.ipynb.kaggle.dataSources.sourceType",
+    "entries.notebook_metadata.ipynb.kaggle.dockerImageVersionId",
+    "entries.notebook_metadata.ipynb.kaggle.isGpuEnabled",
+    "entries.notebook_metadata.ipynb.kaggle.isInternetEnabled",
+    "entries.notebook_metadata.ipynb.kaggle.language",
+    "entries.notebook_metadata.ipynb.kaggle.sourceType",
+    "entries.notebook_metadata.ipynb.kernelspec",
+    "entries.notebook_metadata.ipynb.kernelspec.display_name",
+    "entries.notebook_metadata.ipynb.kernelspec.language",
+    "entries.notebook_metadata.ipynb.kernelspec.name",
+    "entries.notebook_metadata.ipynb.language_info",
+    "entries.notebook_metadata.ipynb.language_info.codemirror_mode",
+    "entries.notebook_metadata.ipynb.language_info.codemirror_mode.name",
+    "entries.notebook_metadata.ipynb.language_info.codemirror_mode.version",
+    "entries.notebook_metadata.ipynb.language_info.file_extension",
+    "entries.notebook_metadata.ipynb.language_info.mimetype",
+    "entries.notebook_metadata.ipynb.language_info.name",
+    "entries.notebook_metadata.ipynb.language_info.nbconvert_exporter",
+    "entries.notebook_metadata.ipynb.language_info.pygments_lexer",
+    "entries.notebook_metadata.ipynb.language_info.version",
+    "entries.notebook_metadata.ipynb.metadata_keys",
+    "entries.notebook_metadata.ipynb.nbformat",
+    "entries.notebook_metadata.ipynb.nbformat_minor",
+    "entries.notebook_metadata.ipynb.source_chars",
+    "entries.notebook_metadata.kernel_metadata",
+    "entries.notebook_metadata.kernel_metadata.file",
+    "entries.notebook_metadata.kernel_metadata.raw",
+    "entries.notebook_metadata.kernel_metadata.raw.code_file",
+    "entries.notebook_metadata.kernel_metadata.raw.competition_sources",
+    "entries.notebook_metadata.kernel_metadata.raw.dataset_sources",
+    "entries.notebook_metadata.kernel_metadata.raw.docker_image",
+    "entries.notebook_metadata.kernel_metadata.raw.enable_gpu",
+    "entries.notebook_metadata.kernel_metadata.raw.enable_internet",
+    "entries.notebook_metadata.kernel_metadata.raw.enable_tpu",
+    "entries.notebook_metadata.kernel_metadata.raw.id",
+    "entries.notebook_metadata.kernel_metadata.raw.id_no",
+    "entries.notebook_metadata.kernel_metadata.raw.is_private",
+    "entries.notebook_metadata.kernel_metadata.raw.kernel_sources",
+    "entries.notebook_metadata.kernel_metadata.raw.kernel_type",
+    "entries.notebook_metadata.kernel_metadata.raw.keywords",
+    "entries.notebook_metadata.kernel_metadata.raw.language",
+    "entries.notebook_metadata.kernel_metadata.raw.machine_shape",
+    "entries.notebook_metadata.kernel_metadata.raw.model_sources",
+    "entries.notebook_metadata.kernel_metadata.raw.title",
+    "entries.owner",
+    "entries.parse_error_count",
+    "entries.parse_errors",
+    "entries.py_count",
+    "entries.slug",
+    "entries.source_root",
+    "entries.title",
+    "entries.total_bytes",
+    "extensions",
+    "generated_at",
+    "keywords",
+    "missing_roots",
+    "project_root",
+    "scanned_roots",
+    "summary",
+    "summary.by_extension",
+    "summary.by_extension.ipynb",
+    "summary.by_extension.json",
+    "summary.by_extension.py",
+    "summary.by_source_root",
+    "summary.by_source_root.notebooks",
+    "summary.by_source_root.public_radar/kernels",
+    "summary.by_source_root.tmp/public_radar/kernels",
+    "summary.entries_with_errors",
+    "summary.entry_count",
+    "summary.file_count",
+    "summary.keyword_entry_counts",
+    "summary.keyword_entry_counts.CoT",
+    "summary.keyword_entry_counts.DARE",
+    "summary.keyword_entry_counts.GRPO",
+    "summary.keyword_entry_counts.LoRA",
+    "summary.keyword_entry_counts.SFT",
+    "summary.keyword_entry_counts.SVD",
+    "summary.keyword_entry_counts.TIES",
+    "summary.keyword_entry_counts.adapter",
+    "summary.keyword_entry_counts.ensemble",
+    "summary.keyword_entry_counts.logprob",
+    "summary.keyword_entry_counts.merge",
+    "summary.keyword_entry_counts.min_logprob",
+    "summary.keyword_entry_counts.reward",
+    "summary.keyword_entry_counts.router",
+    "summary.keyword_entry_counts.verifier",
+    "summary.top_dataset_sources",
+    "summary.top_model_sources"
+  ],
+  "numeric": {
+    "entries.cell_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 96.0,
+      "mean": 11.682926829268293
+    },
+    "entries.cell_counts.code": {
+      "count": 34,
+      "min": 1.0,
+      "max": 85.0,
+      "mean": 9.970588235294118
+    },
+    "entries.cell_counts.markdown": {
+      "count": 27,
+      "min": 1.0,
+      "max": 26.0,
+      "mean": 5.185185185185185
+    },
+    "entries.file_count": {
+      "count": 41,
+      "min": 2.0,
+      "max": 5.0,
+      "mean": 2.6097560975609757
+    },
+    "entries.file_counts.ipynb": {
+      "count": 41,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8292682926829268
+    },
+    "entries.file_counts.json": {
+      "count": 41,
+      "min": 1.0,
+      "max": 2.0,
+      "mean": 1.0975609756097562
+    },
+    "entries.file_counts.py": {
+      "count": 41,
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.6829268292682927
+    },
+    "entries.ipynb_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8292682926829268
+    },
+    "entries.json_count": {
+      "count": 41,
+      "min": 1.0,
+      "max": 2.0,
+      "mean": 1.0975609756097562
+    },
+    "entries.keyword_counts.CoT": {
+      "count": 11,
+      "min": 1.0,
+      "max": 18.0,
+      "mean": 7.909090909090909
+    },
+    "entries.keyword_counts.DARE": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "entries.keyword_counts.GRPO": {
+      "count": 2,
+      "min": 12.0,
+      "max": 16.0,
+      "mean": 14.0
+    },
+    "entries.keyword_counts.LoRA": {
+      "count": 35,
+      "min": 1.0,
+      "max": 34.0,
+      "mean": 9.257142857142858
+    },
+    "entries.keyword_counts.SFT": {
+      "count": 22,
+      "min": 1.0,
+      "max": 20.0,
+      "mean": 5.863636363636363
+    },
+    "entries.keyword_counts.SVD": {
+      "count": 8,
+      "min": 1.0,
+      "max": 31.0,
+      "mean": 8.25
+    },
+    "entries.keyword_counts.TIES": {
+      "count": 8,
+      "min": 1.0,
+      "max": 3.0,
+      "mean": 1.5
+    },
+    "entries.keyword_counts.adapter": {
+      "count": 36,
+      "min": 2.0,
+      "max": 85.0,
+      "mean": 16.77777777777778
+    },
+    "entries.keyword_counts.ensemble": {
+      "count": 2,
+      "min": 1.0,
+      "max": 3.0,
+      "mean": 2.0
+    },
+    "entries.keyword_counts.logprob": {
+      "count": 9,
+      "min": 1.0,
+      "max": 19.0,
+      "mean": 5.111111111111111
+    },
+    "entries.keyword_counts.merge": {
+      "count": 13,
+      "min": 1.0,
+      "max": 26.0,
+      "mean": 6.461538461538462
+    },
+    "entries.keyword_counts.min_logprob": {
+      "count": 3,
+      "min": 1.0,
+      "max": 24.0,
+      "mean": 8.666666666666666
+    },
+    "entries.keyword_counts.reward": {
+      "count": 2,
+      "min": 14.0,
+      "max": 24.0,
+      "mean": 19.0
+    },
+    "entries.keyword_counts.router": {
+      "count": 9,
+      "min": 1.0,
+      "max": 16.0,
+      "mean": 5.222222222222222
+    },
+    "entries.keyword_counts.verifier": {
+      "count": 5,
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 3.4
+    },
+    "entries.notebook_metadata.ipynb.cell_count": {
+      "count": 34,
+      "min": 1.0,
+      "max": 96.0,
+      "mean": 14.088235294117647
+    },
+    "entries.notebook_metadata.ipynb.cell_counts.code": {
+      "count": 34,
+      "min": 1.0,
+      "max": 85.0,
+      "mean": 9.970588235294118
+    },
+    "entries.notebook_metadata.ipynb.cell_counts.markdown": {
+      "count": 27,
+      "min": 1.0,
+      "max": 26.0,
+      "mean": 5.185185185185185
+    },
+    "entries.notebook_metadata.ipynb.language_info.codemirror_mode.version": {
+      "count": 25,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "entries.notebook_metadata.ipynb.nbformat": {
+      "count": 34,
+      "min": 4.0,
+      "max": 4.0,
+      "mean": 4.0
+    },
+    "entries.notebook_metadata.ipynb.nbformat_minor": {
+      "count": 34,
+      "min": 4.0,
+      "max": 5.0,
+      "mean": 4.0588235294117645
+    },
+    "entries.notebook_metadata.ipynb.source_chars": {
+      "count": 34,
+      "min": 634.0,
+      "max": 128643.0,
+      "mean": 24806.735294117647
+    },
+    "entries.parse_error_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "entries.py_count": {
+      "count": 41,
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.6829268292682927
+    },
+    "entries.total_bytes": {
+      "count": 41,
+      "min": 2045.0,
+      "max": 214856.0,
+      "mean": 48023.365853658535
+    },
+    "summary.by_extension.ipynb": {
+      "count": 1,
+      "min": 34.0,
+      "max": 34.0,
+      "mean": 34.0
+    },
+    "summary.by_extension.json": {
+      "count": 1,
+      "min": 45.0,
+      "max": 45.0,
+      "mean": 45.0
+    },
+    "summary.by_extension.py": {
+      "count": 1,
+      "min": 28.0,
+      "max": 28.0,
+      "mean": 28.0
+    },
+    "summary.by_source_root.notebooks": {
+      "count": 1,
+      "min": 21.0,
+      "max": 21.0,
+      "mean": 21.0
+    },
+    "summary.by_source_root.public_radar/kernels": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.by_source_root.tmp/public_radar/kernels": {
+      "count": 1,
+      "min": 12.0,
+      "max": 12.0,
+      "mean": 12.0
+    },
+    "summary.entries_with_errors": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.entry_count": {
+      "count": 1,
+      "min": 41.0,
+      "max": 41.0,
+      "mean": 41.0
+    },
+    "summary.file_count": {
+      "count": 1,
+      "min": 107.0,
+      "max": 107.0,
+      "mean": 107.0
+    },
+    "summary.keyword_entry_counts.CoT": {
+      "count": 1,
+      "min": 11.0,
+      "max": 11.0,
+      "mean": 11.0
+    },
+    "summary.keyword_entry_counts.DARE": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.keyword_entry_counts.GRPO": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.keyword_entry_counts.LoRA": {
+      "count": 1,
+      "min": 35.0,
+      "max": 35.0,
+      "mean": 35.0
+    },
+    "summary.keyword_entry_counts.SFT": {
+      "count": 1,
+      "min": 22.0,
+      "max": 22.0,
+      "mean": 22.0
+    },
+    "summary.keyword_entry_counts.SVD": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.keyword_entry_counts.TIES": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.keyword_entry_counts.adapter": {
+      "count": 1,
+      "min": 36.0,
+      "max": 36.0,
+      "mean": 36.0
+    },
+    "summary.keyword_entry_counts.ensemble": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.keyword_entry_counts.logprob": {
+      "count": 1,
+      "min": 9.0,
+      "max": 9.0,
+      "mean": 9.0
+    },
+    "summary.keyword_entry_counts.merge": {
+      "count": 1,
+      "min": 13.0,
+      "max": 13.0,
+      "mean": 13.0
+    },
+    "summary.keyword_entry_counts.min_logprob": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "summary.keyword_entry_counts.reward": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.keyword_entry_counts.router": {
+      "count": 1,
+      "min": 9.0,
+      "max": 9.0,
+      "mean": 9.0
+    },
+    "summary.keyword_entry_counts.verifier": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "summary.top_dataset_sources": {
+      "count": 20,
+      "min": 1.0,
+      "max": 9.0,
+      "mean": 2.45
+    },
+    "summary.top_model_sources": {
+      "count": 19,
+      "min": 1.0,
+      "max": 22.0,
+      "mean": 3.6842105263157894
+    }
+  }
+}

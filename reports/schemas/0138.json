@@ -1,0 +1,24 @@
+{
+  "path": "remote_trace_logprob_audit_v7_content384/manifest.json",
+  "sha256": "29c9774d36df94b603e7c311b427588eabf32e7f316c1845a1116e83357aedcb",
+  "format": "json",
+  "root_type": "list",
+  "keys": [
+    "csv",
+    "dataset",
+    "jsonl",
+    "kind",
+    "label",
+    "path",
+    "records",
+    "summary_json"
+  ],
+  "numeric": {
+    "records": {
+      "count": 1,
+      "min": 64.0,
+      "max": 64.0,
+      "mean": 64.0
+    }
+  }
+}

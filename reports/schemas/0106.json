@@ -1,0 +1,80 @@
+{
+  "path": "remote_trace_logprob_audit_v2_smoke/trace_logprob_audit_summary.json",
+  "sha256": "4cfae233869600eab06dfdbfc79d21d670b212ad12f81af11504327eb2d37bff",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "by_source",
+    "by_source.nemo_jsonl:nemo_valid.jsonl",
+    "by_task_type",
+    "by_task_type.huikang_14class",
+    "min_logprob",
+    "min_logprob.by_task_mean",
+    "min_logprob.by_task_mean.huikang_14class",
+    "min_logprob.mean",
+    "min_logprob.min",
+    "prefix_mismatch",
+    "quality_flags",
+    "quality_flags.pretokenized_nemo",
+    "rows",
+    "truncated",
+    "worst_rows",
+    "worst_rows.id",
+    "worst_rows.method",
+    "worst_rows.min_logprob",
+    "worst_rows.source",
+    "worst_rows.task_type",
+    "worst_rows.worst_context",
+    "worst_rows.worst_token_text"
+  ],
+  "numeric": {
+    "by_task_type.huikang_14class": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "min_logprob.by_task_mean.huikang_14class": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "min_logprob.mean": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "min_logprob.min": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    },
+    "prefix_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "rows": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "truncated": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "worst_rows.min_logprob": {
+      "count": 1,
+      "min": -19.215456008911133,
+      "max": -19.215456008911133,
+      "mean": -19.215456008911133
+    }
+  }
+}

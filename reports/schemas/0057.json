@@ -1,0 +1,39 @@
+{
+  "path": "huikang_nemo_valid_dryrun_8192.jsonl",
+  "sha256": "1ab0ee2a3f35e7afb5b39b66378f4f651318101bc57dff3f4e0a12afb2318ebd",
+  "format": "jsonl",
+  "rows": 5,
+  "keys": [
+    "answer",
+    "completion_chars",
+    "completion_token_len",
+    "id",
+    "method",
+    "prefix_mismatch",
+    "pretokenized",
+    "prompt_chars",
+    "prompt_token_len",
+    "quality_flags",
+    "source",
+    "task_type",
+    "total_token_len",
+    "truncated"
+  ],
+  "key_counts": {
+    "answer": 5,
+    "completion_chars": 5,
+    "completion_token_len": 5,
+    "id": 5,
+    "method": 5,
+    "prefix_mismatch": 5,
+    "pretokenized": 5,
+    "prompt_chars": 5,
+    "prompt_token_len": 5,
+    "quality_flags": 5,
+    "source": 5,
+    "task_type": 5,
+    "total_token_len": 5,
+    "truncated": 5
+  },
+  "numeric": {}
+}

@@ -1,0 +1,64 @@
+{
+  "path": "hard_tail_v6_64_content_nomultibox_decision.json",
+  "sha256": "67cc0552ab8fb566fe4aeb9525ece51ba6ba4b8eb5a8a9dac7d92b2bd1e03c8c",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "chosen_path",
+    "next_step",
+    "recommendation",
+    "scores",
+    "scores.adapter_arithmetic",
+    "scores.adapter_arithmetic.evidence",
+    "scores.adapter_arithmetic.evidence.reason",
+    "scores.adapter_arithmetic.evidence.selected_rows",
+    "scores.adapter_arithmetic.score",
+    "scores.bit_repair",
+    "scores.bit_repair.evidence",
+    "scores.bit_repair.evidence.context_hits",
+    "scores.bit_repair.evidence.source_rows",
+    "scores.bit_repair.evidence.task_rows",
+    "scores.bit_repair.evidence.top_sources",
+    "scores.bit_repair.score",
+    "scores.formatting_repair",
+    "scores.formatting_repair.evidence",
+    "scores.formatting_repair.evidence.context_hits",
+    "scores.formatting_repair.evidence.quality_flag_rows",
+    "scores.formatting_repair.evidence.top_flags",
+    "scores.formatting_repair.evidence.top_tokens",
+    "scores.formatting_repair.score",
+    "scores.symbolic_operator",
+    "scores.symbolic_operator.evidence",
+    "scores.symbolic_operator.evidence.context_hits",
+    "scores.symbolic_operator.evidence.task_rows",
+    "scores.symbolic_operator.evidence.top_tasks",
+    "scores.symbolic_operator.score",
+    "summary"
+  ],
+  "numeric": {
+    "scores.adapter_arithmetic.score": {
+      "count": 1,
+      "min": 0.05,
+      "max": 0.05,
+      "mean": 0.05
+    },
+    "scores.bit_repair.score": {
+      "count": 1,
+      "min": 0.35510416666666667,
+      "max": 0.35510416666666667,
+      "mean": 0.35510416666666667
+    },
+    "scores.formatting_repair.score": {
+      "count": 1,
+      "min": 0.27875,
+      "max": 0.27875,
+      "mean": 0.27875
+    },
+    "scores.symbolic_operator.score": {
+      "count": 1,
+      "min": 0.3075,
+      "max": 0.3075,
+      "mean": 0.3075
+    }
+  }
+}

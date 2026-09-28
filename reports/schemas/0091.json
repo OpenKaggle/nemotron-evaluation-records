@@ -1,0 +1,41 @@
+{
+  "path": "public_audit_2026-06-06/penguin069__nemotron-dapo-05-06/dataset-metadata.json",
+  "sha256": "fc75b53312e0980a95812cccb2ef499995268bde8e4d690353e83dfdbe254c36",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "info",
+    "info.datasetId",
+    "info.datasetSlug",
+    "info.description",
+    "info.expectedUpdateFrequency",
+    "info.licenses",
+    "info.licenses.name",
+    "info.ownerUser",
+    "info.subtitle",
+    "info.title",
+    "info.totalDownloads",
+    "info.totalViews",
+    "info.usabilityRating"
+  ],
+  "numeric": {
+    "info.totalDownloads": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "info.totalViews": {
+      "count": 1,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "info.usabilityRating": {
+      "count": 1,
+      "min": 0.125,
+      "max": 0.125,
+      "mean": 0.125
+    }
+  }
+}

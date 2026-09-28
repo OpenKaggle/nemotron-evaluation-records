@@ -1,0 +1,898 @@
+{
+  "path": "reward_calibration_smoke.json",
+  "sha256": "4e94ad42620f64fc6935323f41dc7e171fb033d80528eeba6cb363d18a67041e",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "inputs",
+    "inputs.dpo_pairs",
+    "inputs.kishan",
+    "inputs.limit",
+    "inputs.positive",
+    "inputs.task_type",
+    "mode",
+    "reward_names",
+    "summary",
+    "summary.by_source",
+    "summary.by_source.bankoglu>kishanvavdara",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.banwait_composite_simple",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.sequence_correctness",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.sequence_correctness.count",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.sequence_correctness.median",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.verifier",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.verifier.count",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.verifier.mean",
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.verifier.median",
+    "summary.by_source.bankoglu>kishanvavdara.count",
+    "summary.by_source.donald>kishanvavdara",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.banwait_composite_simple",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.sequence_correctness",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.sequence_correctness.count",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.sequence_correctness.median",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.verifier",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.verifier.count",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.verifier.mean",
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.verifier.median",
+    "summary.by_source.donald>kishanvavdara.count",
+    "summary.by_source.llkh0a>kishanvavdara",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.banwait_composite_simple",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.sequence_correctness",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.sequence_correctness.count",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.sequence_correctness.median",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.verifier",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.verifier.count",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.verifier.mean",
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.verifier.median",
+    "summary.by_source.llkh0a>kishanvavdara.count",
+    "summary.by_source.oracle>kishanvavdara",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.banwait_composite_simple",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.sequence_correctness",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.sequence_correctness.count",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.sequence_correctness.median",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.verifier",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.verifier.count",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.verifier.mean",
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.verifier.median",
+    "summary.by_source.oracle>kishanvavdara.count",
+    "summary.by_source.srivath>kishanvavdara",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.banwait_composite_simple",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.sequence_correctness",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.sequence_correctness.count",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.sequence_correctness.median",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.verifier",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.verifier.count",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.verifier.mean",
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.verifier.median",
+    "summary.by_source.srivath>kishanvavdara.count",
+    "summary.by_source.tong>kishanvavdara",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.banwait_composite_simple",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.sequence_correctness",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.sequence_correctness.count",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.sequence_correctness.median",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.verifier",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.verifier.count",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.verifier.mean",
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.verifier.median",
+    "summary.by_source.tong>kishanvavdara.count",
+    "summary.by_task",
+    "summary.by_task.bit_manipulation",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.banwait_composite_simple",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.sequence_correctness",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.sequence_correctness.count",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.sequence_correctness.median",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.verifier",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.verifier.count",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.verifier.mean",
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.verifier.median",
+    "summary.by_task.bit_manipulation.count",
+    "summary.chosen",
+    "summary.chosen.count",
+    "summary.chosen.exact_rate",
+    "summary.chosen.flags_top_counts",
+    "summary.chosen.flags_top_counts.answer_exact",
+    "summary.chosen.flags_top_counts.multiple_boxed",
+    "summary.chosen.rewards",
+    "summary.chosen.rewards.banwait_composite_simple",
+    "summary.chosen.rewards.banwait_composite_simple.count",
+    "summary.chosen.rewards.banwait_composite_simple.mean",
+    "summary.chosen.rewards.banwait_composite_simple.median",
+    "summary.chosen.rewards.sequence_correctness",
+    "summary.chosen.rewards.sequence_correctness.count",
+    "summary.chosen.rewards.sequence_correctness.mean",
+    "summary.chosen.rewards.sequence_correctness.median",
+    "summary.chosen.rewards.verifier",
+    "summary.chosen.rewards.verifier.count",
+    "summary.chosen.rewards.verifier.mean",
+    "summary.chosen.rewards.verifier.median",
+    "summary.chosen.source_counts",
+    "summary.chosen.source_counts.bankoglu",
+    "summary.chosen.source_counts.donald",
+    "summary.chosen.source_counts.llkh0a",
+    "summary.chosen.source_counts.oracle",
+    "summary.chosen.source_counts.srivath",
+    "summary.chosen.source_counts.tong",
+    "summary.chosen.task_counts",
+    "summary.chosen.task_counts.bit_manipulation",
+    "summary.chosen_gt_rejected_rate",
+    "summary.chosen_gt_rejected_rate.banwait_composite_simple",
+    "summary.chosen_gt_rejected_rate.sequence_correctness",
+    "summary.chosen_gt_rejected_rate.verifier",
+    "summary.chosen_minus_rejected",
+    "summary.chosen_minus_rejected.banwait_composite_simple",
+    "summary.chosen_minus_rejected.banwait_composite_simple.count",
+    "summary.chosen_minus_rejected.banwait_composite_simple.mean",
+    "summary.chosen_minus_rejected.banwait_composite_simple.median",
+    "summary.chosen_minus_rejected.sequence_correctness",
+    "summary.chosen_minus_rejected.sequence_correctness.count",
+    "summary.chosen_minus_rejected.sequence_correctness.mean",
+    "summary.chosen_minus_rejected.sequence_correctness.median",
+    "summary.chosen_minus_rejected.verifier",
+    "summary.chosen_minus_rejected.verifier.count",
+    "summary.chosen_minus_rejected.verifier.mean",
+    "summary.chosen_minus_rejected.verifier.median",
+    "summary.pair_count",
+    "summary.rejected",
+    "summary.rejected.count",
+    "summary.rejected.exact_rate",
+    "summary.rejected.flags_top_counts",
+    "summary.rejected.flags_top_counts.missing_extracted_answer",
+    "summary.rejected.flags_top_counts.missing_final",
+    "summary.rejected.flags_top_counts.wrong_final",
+    "summary.rejected.rewards",
+    "summary.rejected.rewards.banwait_composite_simple",
+    "summary.rejected.rewards.banwait_composite_simple.count",
+    "summary.rejected.rewards.banwait_composite_simple.mean",
+    "summary.rejected.rewards.banwait_composite_simple.median",
+    "summary.rejected.rewards.sequence_correctness",
+    "summary.rejected.rewards.sequence_correctness.count",
+    "summary.rejected.rewards.sequence_correctness.mean",
+    "summary.rejected.rewards.sequence_correctness.median",
+    "summary.rejected.rewards.verifier",
+    "summary.rejected.rewards.verifier.count",
+    "summary.rejected.rewards.verifier.mean",
+    "summary.rejected.rewards.verifier.median",
+    "summary.rejected.source_counts",
+    "summary.rejected.source_counts.kishanvavdara",
+    "summary.rejected.task_counts",
+    "summary.rejected.task_counts.bit_manipulation"
+  ],
+  "numeric": {
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.bankoglu>kishanvavdara.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.donald>kishanvavdara.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.donald>kishanvavdara.count": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.llkh0a>kishanvavdara.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.oracle>kishanvavdara.count": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.srivath>kishanvavdara.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.srivath>kishanvavdara.count": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.tong>kishanvavdara.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_source.tong>kishanvavdara.count": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_task.bit_manipulation.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.by_task.bit_manipulation.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen.exact_rate": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.flags_top_counts.multiple_boxed": {
+      "count": 1,
+      "min": 7.0,
+      "max": 7.0,
+      "mean": 7.0
+    },
+    "summary.chosen.rewards.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen.rewards.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.rewards.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.rewards.sequence_correctness.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen.rewards.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.rewards.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.rewards.verifier.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen.rewards.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.rewards.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.source_counts.bankoglu": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.chosen.source_counts.donald": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "summary.chosen.source_counts.llkh0a": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.chosen.source_counts.oracle": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen.source_counts.srivath": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "summary.chosen.source_counts.tong": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "summary.chosen.task_counts.bit_manipulation": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen_gt_rejected_rate.banwait_composite_simple": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_gt_rejected_rate.sequence_correctness": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_gt_rejected_rate.verifier": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_minus_rejected.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen_minus_rejected.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_minus_rejected.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_minus_rejected.sequence_correctness.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen_minus_rejected.sequence_correctness.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_minus_rejected.sequence_correctness.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_minus_rejected.verifier.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.chosen_minus_rejected.verifier.mean": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.chosen_minus_rejected.verifier.median": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "summary.pair_count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.exact_rate": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.rejected.flags_top_counts.missing_final": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.flags_top_counts.wrong_final": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.rewards.banwait_composite_simple.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.rewards.banwait_composite_simple.mean": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.rejected.rewards.banwait_composite_simple.median": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.rejected.rewards.sequence_correctness.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.rewards.sequence_correctness.mean": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.rejected.rewards.sequence_correctness.median": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.rejected.rewards.verifier.count": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.rewards.verifier.mean": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.rejected.rewards.verifier.median": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "summary.rejected.source_counts.kishanvavdara": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    },
+    "summary.rejected.task_counts.bit_manipulation": {
+      "count": 1,
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0
+    }
+  }
+}

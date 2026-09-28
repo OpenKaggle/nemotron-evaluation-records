@@ -1,0 +1,50 @@
+{
+  "path": "remote_trace_logprob_audit_v7_content384/worst_token_aggregate.csv",
+  "sha256": "f297de790ae47a05b85768c8f7893d6d85ca08e7076f7d58b463973411515dfa",
+  "format": "csv",
+  "rows": 23,
+  "columns": [
+    "worst_token_id",
+    "worst_token_text",
+    "count",
+    "min_logprob_mean",
+    "min_logprob_min",
+    "top_sources",
+    "top_task_types",
+    "example_ids"
+  ],
+  "numeric": {
+    "count": {
+      "count": 23,
+      "min": 1.0,
+      "max": 9.0,
+      "mean": 2.782608695652174
+    },
+    "min_logprob_mean": {
+      "count": 23,
+      "min": -24.953991413116455,
+      "max": -11.250110626220703,
+      "mean": -16.40082041718698
+    },
+    "min_logprob_min": {
+      "count": 23,
+      "min": -25.188411712646484,
+      "max": -11.250110626220703,
+      "mean": -16.653204171553902
+    }
+  },
+  "text_lengths": {
+    "top_sources": {
+      "count": 23,
+      "min": 11.0,
+      "max": 18.0,
+      "mean": 14.391304347826088
+    },
+    "top_task_types": {
+      "count": 23,
+      "min": 18.0,
+      "max": 46.0,
+      "mean": 24.08695652173913
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "path": "hard_tail_v5_64_diagnostic.csv",
+  "sha256": "a5f34eef62257556223e91ccbe719b6831095268d7912795f5718fb471052056",
+  "format": "csv",
+  "rows": 57,
+  "columns": [
+    "id",
+    "source",
+    "task_type",
+    "method",
+    "answer",
+    "hard_tail_score",
+    "mean_logprob",
+    "min_logprob",
+    "worst_token_text",
+    "worst_context",
+    "quality_flags",
+    "manifest_match"
+  ],
+  "numeric": {
+    "hard_tail_score": {
+      "count": 57,
+      "min": -26.16148567199707,
+      "max": -10.030611038208008,
+      "mean": -17.410854707684432
+    },
+    "mean_logprob": {
+      "count": 57,
+      "min": -3.7225799560546875,
+      "max": -0.3088935911655426,
+      "mean": -1.4161235993368584
+    },
+    "min_logprob": {
+      "count": 57,
+      "min": -26.16148567199707,
+      "max": -10.030611038208008,
+      "mean": -17.410854707684432
+    }
+  },
+  "text_lengths": {
+    "manifest_match": {
+      "count": 57,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "method": {
+      "count": 57,
+      "min": 13.0,
+      "max": 31.0,
+      "mean": 18.964912280701753
+    },
+    "quality_flags": {
+      "count": 57,
+      "min": 47.0,
+      "max": 65.0,
+      "mean": 55.26315789473684
+    },
+    "source": {
+      "count": 57,
+      "min": 4.0,
+      "max": 11.0,
+      "mean": 7.087719298245614
+    },
+    "task_type": {
+      "count": 57,
+      "min": 7.0,
+      "max": 17.0,
+      "mean": 14.929824561403509
+    }
+  }
+}

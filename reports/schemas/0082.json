@@ -1,0 +1,12 @@
+{
+  "path": "public_audit_2026-06-06/llkh0a__nemotron-unsloth-sft-training-3-30-2/output/formatted_train_dataset.csv",
+  "sha256": "3716c77b7b3276b3bd9a4e0554bf4d481c44d2b7a673a9459ba39cf85736defb",
+  "format": "csv",
+  "rows": 3910,
+  "columns": [
+    "user_content",
+    "assistant_content"
+  ],
+  "numeric": {},
+  "text_lengths": {}
+}

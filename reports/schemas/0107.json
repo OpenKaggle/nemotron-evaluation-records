@@ -1,0 +1,43 @@
+{
+  "path": "remote_trace_logprob_audit_v2_smoke/worst_token_aggregate.json",
+  "sha256": "690b08b05550192bc5829a116fbb50eb1845445b32325ce8a9087989be7d5b4e",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "by_source",
+    "by_source.nemo_jsonl:nemo_valid.jsonl",
+    "by_task_type",
+    "by_task_type.huikang_14class",
+    "rows",
+    "top_worst_tokens",
+    "top_worst_tokens.count",
+    "top_worst_tokens.example_ids",
+    "top_worst_tokens.min_logprob_mean",
+    "top_worst_tokens.min_logprob_min",
+    "top_worst_tokens.top_sources",
+    "top_worst_tokens.top_task_types",
+    "top_worst_tokens.worst_token_id",
+    "top_worst_tokens.worst_token_text",
+    "total_scored_rows"
+  ],
+  "numeric": {
+    "by_task_type.huikang_14class": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "rows": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "total_scored_rows": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    }
+  }
+}

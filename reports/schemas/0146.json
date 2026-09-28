@@ -1,0 +1,120 @@
+{
+  "path": "remote_trace_logprob_audit_v7_content384/worst_token_aggregate.json",
+  "sha256": "17320f6a4db468433af5b8279b74b858e9bec41a5c3aeb3127a10d6cf077dafe",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "by_source",
+    "by_source.bankoglu",
+    "by_source.donald",
+    "by_source.llkh0a",
+    "by_source.oracle",
+    "by_source.srivath",
+    "by_source.sybyrr_beta",
+    "by_source.tong",
+    "by_task_type",
+    "by_task_type.bit_manipulation",
+    "by_task_type.gravity_physics",
+    "by_task_type.numeral_system",
+    "by_task_type.symbolic_equation",
+    "by_task_type.text_cipher",
+    "by_task_type.unit_conversion",
+    "rows",
+    "top_worst_tokens",
+    "top_worst_tokens.count",
+    "top_worst_tokens.example_ids",
+    "top_worst_tokens.min_logprob_mean",
+    "top_worst_tokens.min_logprob_min",
+    "top_worst_tokens.top_sources",
+    "top_worst_tokens.top_task_types",
+    "top_worst_tokens.worst_token_id",
+    "top_worst_tokens.worst_token_text",
+    "total_scored_rows"
+  ],
+  "numeric": {
+    "by_source.bankoglu": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "by_source.donald": {
+      "count": 1,
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    "by_source.llkh0a": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "by_source.oracle": {
+      "count": 1,
+      "min": 21.0,
+      "max": 21.0,
+      "mean": 21.0
+    },
+    "by_source.srivath": {
+      "count": 1,
+      "min": 9.0,
+      "max": 9.0,
+      "mean": 9.0
+    },
+    "by_source.sybyrr_beta": {
+      "count": 1,
+      "min": 12.0,
+      "max": 12.0,
+      "mean": 12.0
+    },
+    "by_source.tong": {
+      "count": 1,
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "by_task_type.bit_manipulation": {
+      "count": 1,
+      "min": 21.0,
+      "max": 21.0,
+      "mean": 21.0
+    },
+    "by_task_type.gravity_physics": {
+      "count": 1,
+      "min": 4.0,
+      "max": 4.0,
+      "mean": 4.0
+    },
+    "by_task_type.numeral_system": {
+      "count": 1,
+      "min": 7.0,
+      "max": 7.0,
+      "mean": 7.0
+    },
+    "by_task_type.symbolic_equation": {
+      "count": 1,
+      "min": 19.0,
+      "max": 19.0,
+      "mean": 19.0
+    },
+    "by_task_type.unit_conversion": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "rows": {
+      "count": 1,
+      "min": 23.0,
+      "max": 23.0,
+      "mean": 23.0
+    },
+    "total_scored_rows": {
+      "count": 1,
+      "min": 64.0,
+      "max": 64.0,
+      "mean": 64.0
+    }
+  }
+}

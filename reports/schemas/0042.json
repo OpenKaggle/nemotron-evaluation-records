@@ -1,0 +1,60 @@
+{
+  "path": "hard_tail_v7_384_content.csv",
+  "sha256": "0922949cc401b616ebb9e7ff5d5d0e2ffc7a47bf54cc5ddaa2054a27c6f598b9",
+  "format": "csv",
+  "rows": 56,
+  "columns": [
+    "id",
+    "source",
+    "task_type",
+    "method",
+    "answer",
+    "hard_tail_score",
+    "content_min_logprob",
+    "content_mean_logprob",
+    "content_worst_token_text",
+    "content_worst_context",
+    "quality_flags",
+    "manifest_match"
+  ],
+  "numeric": {
+    "hard_tail_score": {
+      "count": 56,
+      "min": -17.9810791015625,
+      "max": -3.9902496337890625,
+      "mean": -13.89179013456617
+    }
+  },
+  "text_lengths": {
+    "manifest_match": {
+      "count": 56,
+      "min": 6.0,
+      "max": 6.0,
+      "mean": 6.0
+    },
+    "method": {
+      "count": 56,
+      "min": 13.0,
+      "max": 31.0,
+      "mean": 20.5
+    },
+    "quality_flags": {
+      "count": 56,
+      "min": 47.0,
+      "max": 65.0,
+      "mean": 53.05357142857143
+    },
+    "source": {
+      "count": 56,
+      "min": 4.0,
+      "max": 11.0,
+      "mean": 7.214285714285714
+    },
+    "task_type": {
+      "count": 56,
+      "min": 11.0,
+      "max": 17.0,
+      "mean": 15.196428571428571
+    }
+  }
+}

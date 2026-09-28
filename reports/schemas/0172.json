@@ -1,0 +1,42 @@
+{
+  "path": "verifier_reward_kishan_bit_smoke.jsonl",
+  "sha256": "14caa6d1c74ae00bf806c522388f37fce1341ac4036184cd167ec7dbb68ece24",
+  "format": "jsonl",
+  "rows": 200,
+  "keys": [
+    "answer",
+    "completion",
+    "extracted_answer",
+    "flags",
+    "id",
+    "method",
+    "prompt",
+    "provided_correctness",
+    "reward",
+    "source",
+    "task_type",
+    "terms"
+  ],
+  "key_counts": {
+    "answer": 200,
+    "completion": 200,
+    "extracted_answer": 200,
+    "flags": 200,
+    "id": 200,
+    "method": 200,
+    "prompt": 200,
+    "provided_correctness": 200,
+    "reward": 200,
+    "source": 200,
+    "task_type": 200,
+    "terms": 200
+  },
+  "numeric": {
+    "reward": {
+      "count": 200,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.15435000000000001
+    }
+  }
+}

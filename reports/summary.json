@@ -1,0 +1,19 @@
+{
+  "source_group": "kagglenvda/reports",
+  "files": 174,
+  "total_bytes": 72004451,
+  "extensions": {
+    ".bin": 1,
+    ".csv": 25,
+    ".ipynb": 3,
+    ".json": 79,
+    ".jsonl": 34,
+    ".log": 7,
+    ".md": 21,
+    ".py": 1,
+    ".txt": 1,
+    ".zip": 2
+  },
+  "string_values": "not included",
+  "raw_report_bodies": "not included"
+}

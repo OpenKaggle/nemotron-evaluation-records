@@ -1,0 +1,44 @@
+{
+  "path": "public_audit_2026-06-06/foysalemonshanto__nemotron-cot-tong-submission/dataset-metadata.json",
+  "sha256": "bcdab7c63c74a7201eccb4310e2536b415e4190201890d8117460abe8c334a08",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "info",
+    "info.collaborators",
+    "info.collaborators.role",
+    "info.collaborators.username",
+    "info.datasetId",
+    "info.datasetSlug",
+    "info.description",
+    "info.expectedUpdateFrequency",
+    "info.licenses",
+    "info.licenses.name",
+    "info.ownerUser",
+    "info.subtitle",
+    "info.title",
+    "info.totalDownloads",
+    "info.totalViews",
+    "info.usabilityRating"
+  ],
+  "numeric": {
+    "info.totalDownloads": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "info.totalViews": {
+      "count": 1,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0
+    },
+    "info.usabilityRating": {
+      "count": 1,
+      "min": 0.125,
+      "max": 0.125,
+      "mean": 0.125
+    }
+  }
+}

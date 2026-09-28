@@ -1,0 +1,44 @@
+{
+  "path": "huikang_nemo_valid_dryrun_8192_summary.json",
+  "sha256": "1d073d03d9cf25f6794e2fd5de23e95671f6ca2e7e3fa3ae7c77343f9f2b71c7",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "by_source",
+    "by_source.nemo_jsonl:nemo_valid.jsonl",
+    "by_task_type",
+    "by_task_type.huikang_14class",
+    "prefix_mismatch",
+    "quality_flags",
+    "quality_flags.empty_answer",
+    "quality_flags.pretokenized_nemo",
+    "rows",
+    "truncated"
+  ],
+  "numeric": {
+    "by_task_type.huikang_14class": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "prefix_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "rows": {
+      "count": 1,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    },
+    "truncated": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "path": "remote_trace_logprob_audit_v6_content64/local_manifest_first_gpu_audit.csv",
+  "sha256": "090f23aca43087893259564d701c583a8c2c51167e04ba1b847d71316adbbba4",
+  "format": "csv",
+  "rows": 64,
+  "columns": [
+    "id",
+    "source",
+    "task_type",
+    "method",
+    "answer",
+    "quality_flags",
+    "prompt_chars",
+    "completion_chars",
+    "prompt_token_len",
+    "completion_token_len",
+    "total_token_len",
+    "truncated",
+    "prefix_mismatch",
+    "pretokenized",
+    "scored_tokens",
+    "mean_logprob",
+    "min_logprob",
+    "worst_token_index",
+    "worst_token_id",
+    "worst_token_text",
+    "worst_context",
+    "content_skip_tokens",
+    "content_scored_tokens",
+    "content_mean_logprob",
+    "content_min_logprob",
+    "content_worst_token_index",
+    "content_worst_token_id",
+    "content_worst_token_text",
+    "content_worst_context"
+  ],
+  "numeric": {
+    "mean_logprob": {
+      "count": 64,
+      "min": -3.7225799560546875,
+      "max": -0.3088935911655426,
+      "mean": -1.4082421869970858
+    },
+    "min_logprob": {
+      "count": 64,
+      "min": -26.16148567199707,
+      "max": -10.030611038208008,
+      "mean": -17.513100937008858
+    }
+  },
+  "text_lengths": {
+    "method": {
+      "count": 64,
+      "min": 13.0,
+      "max": 31.0,
+      "mean": 18.609375
+    },
+    "prefix_mismatch": {
+      "count": 64,
+      "min": 4.0,
+      "max": 5.0,
+      "mean": 4.25
+    },
+    "quality_flags": {
+      "count": 64,
+      "min": 47.0,
+      "max": 65.0,
+      "mean": 55.15625
+    },
+    "source": {
+      "count": 64,
+      "min": 4.0,
+      "max": 11.0,
+      "mean": 7.046875
+    },
+    "task_type": {
+      "count": 64,
+      "min": 7.0,
+      "max": 17.0,
+      "mean": 14.78125
+    },
+    "truncated": {
+      "count": 64,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    }
+  }
+}

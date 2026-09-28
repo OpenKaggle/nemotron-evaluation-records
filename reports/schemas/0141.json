@@ -1,0 +1,89 @@
+{
+  "path": "remote_trace_logprob_audit_v7_content384/trace_logprob_audit.csv",
+  "sha256": "c18b195eee3306da7927bf2da23b60f1d90c8323d144d2a930894c88fad755d7",
+  "format": "csv",
+  "rows": 64,
+  "columns": [
+    "id",
+    "source",
+    "task_type",
+    "method",
+    "answer",
+    "quality_flags",
+    "prompt_chars",
+    "completion_chars",
+    "prompt_token_len",
+    "completion_token_len",
+    "total_token_len",
+    "truncated",
+    "prefix_mismatch",
+    "pretokenized",
+    "scored_tokens",
+    "mean_logprob",
+    "min_logprob",
+    "worst_token_index",
+    "worst_token_id",
+    "worst_token_text",
+    "worst_context",
+    "content_skip_tokens",
+    "content_scored_tokens",
+    "content_mean_logprob",
+    "content_min_logprob",
+    "content_worst_token_index",
+    "content_worst_token_id",
+    "content_worst_token_text",
+    "content_worst_context"
+  ],
+  "numeric": {
+    "mean_logprob": {
+      "count": 64,
+      "min": -3.7992608547210693,
+      "max": -0.25162142515182495,
+      "mean": -1.589932351373136
+    },
+    "min_logprob": {
+      "count": 64,
+      "min": -25.188411712646484,
+      "max": -11.250110626220703,
+      "mean": -17.38626529276371
+    }
+  },
+  "text_lengths": {
+    "method": {
+      "count": 64,
+      "min": 13.0,
+      "max": 31.0,
+      "mean": 20.390625
+    },
+    "prefix_mismatch": {
+      "count": 64,
+      "min": 4.0,
+      "max": 5.0,
+      "mean": 4.203125
+    },
+    "quality_flags": {
+      "count": 64,
+      "min": 47.0,
+      "max": 65.0,
+      "mean": 53.1875
+    },
+    "source": {
+      "count": 64,
+      "min": 4.0,
+      "max": 11.0,
+      "mean": 7.296875
+    },
+    "task_type": {
+      "count": 64,
+      "min": 11.0,
+      "max": 17.0,
+      "mean": 15.1875
+    },
+    "truncated": {
+      "count": 64,
+      "min": 5.0,
+      "max": 5.0,
+      "mean": 5.0
+    }
+  }
+}

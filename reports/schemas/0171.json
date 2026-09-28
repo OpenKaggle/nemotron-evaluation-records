@@ -1,0 +1,777 @@
+{
+  "path": "trace_manifest_first_gpu_audit_summary.json",
+  "sha256": "d179ff848d04c1b2e2bd17dcce98581536186ceb2980045c5a0d3ef426fda8a7",
+  "format": "json",
+  "root_type": "dict",
+  "keys": [
+    "by_source",
+    "by_source.bankoglu",
+    "by_source.donald",
+    "by_source.llkh0a",
+    "by_source.oracle",
+    "by_source.srivath",
+    "by_source.sybyrr_beta",
+    "by_source.tong",
+    "by_task_type",
+    "by_task_type.bit_manipulation",
+    "by_task_type.gravity_physics",
+    "by_task_type.numeral_system",
+    "by_task_type.symbolic_equation",
+    "by_task_type.text_cipher",
+    "by_task_type.unit_conversion",
+    "by_task_type.unknown",
+    "canonical_fields",
+    "include_disabled",
+    "output",
+    "quality_flags",
+    "quality_flags.boxed_appended",
+    "quality_flags.final_boxed_match",
+    "quality_flags.multiple_boxed",
+    "quality_flags.prompt_match",
+    "quality_flags.source_answer_match",
+    "rows",
+    "seed",
+    "sources",
+    "sources.bankoglu",
+    "sources.bankoglu.boxed_appended",
+    "sources.bankoglu.boxed_checked",
+    "sources.bankoglu.boxed_match",
+    "sources.bankoglu.boxed_mismatch",
+    "sources.bankoglu.enabled_pre_sample",
+    "sources.bankoglu.exists",
+    "sources.bankoglu.filter_flags",
+    "sources.bankoglu.oracle_true",
+    "sources.bankoglu.path",
+    "sources.bankoglu.prompt_match",
+    "sources.bankoglu.raw_rows",
+    "sources.bankoglu.sampled",
+    "sources.bankoglu.sampled_quality_flags",
+    "sources.bankoglu.sampled_quality_flags.final_boxed_match",
+    "sources.bankoglu.sampled_quality_flags.prompt_match",
+    "sources.bankoglu.sampled_quality_flags.source_answer_match",
+    "sources.bankoglu.source_answer_match",
+    "sources.bankoglu.target",
+    "sources.bankoglu.train_joined",
+    "sources.donald",
+    "sources.donald.boxed_appended",
+    "sources.donald.boxed_checked",
+    "sources.donald.boxed_match",
+    "sources.donald.boxed_mismatch",
+    "sources.donald.enabled_pre_sample",
+    "sources.donald.exists",
+    "sources.donald.filter_flags",
+    "sources.donald.oracle_true",
+    "sources.donald.path",
+    "sources.donald.prompt_match",
+    "sources.donald.raw_rows",
+    "sources.donald.sampled",
+    "sources.donald.sampled_quality_flags",
+    "sources.donald.sampled_quality_flags.boxed_appended",
+    "sources.donald.sampled_quality_flags.prompt_match",
+    "sources.donald.sampled_quality_flags.source_answer_match",
+    "sources.donald.source_answer_match",
+    "sources.donald.target",
+    "sources.donald.train_joined",
+    "sources.llkh0a",
+    "sources.llkh0a.boxed_appended",
+    "sources.llkh0a.boxed_checked",
+    "sources.llkh0a.boxed_match",
+    "sources.llkh0a.boxed_mismatch",
+    "sources.llkh0a.enabled_pre_sample",
+    "sources.llkh0a.exists",
+    "sources.llkh0a.filter_flags",
+    "sources.llkh0a.filter_flags.final_boxed_mismatch",
+    "sources.llkh0a.filter_flags.no_boxed",
+    "sources.llkh0a.filter_flags.source_answer_mismatch",
+    "sources.llkh0a.oracle_true",
+    "sources.llkh0a.path",
+    "sources.llkh0a.prompt_match",
+    "sources.llkh0a.raw_rows",
+    "sources.llkh0a.sampled",
+    "sources.llkh0a.sampled_quality_flags",
+    "sources.llkh0a.sampled_quality_flags.final_boxed_match",
+    "sources.llkh0a.sampled_quality_flags.multiple_boxed",
+    "sources.llkh0a.sampled_quality_flags.prompt_match",
+    "sources.llkh0a.sampled_quality_flags.source_answer_match",
+    "sources.llkh0a.source_answer_match",
+    "sources.llkh0a.target",
+    "sources.llkh0a.train_joined",
+    "sources.oracle",
+    "sources.oracle.boxed_appended",
+    "sources.oracle.boxed_checked",
+    "sources.oracle.boxed_match",
+    "sources.oracle.boxed_mismatch",
+    "sources.oracle.enabled_pre_sample",
+    "sources.oracle.exists",
+    "sources.oracle.filter_flags",
+    "sources.oracle.filter_flags.final_boxed_mismatch",
+    "sources.oracle.filter_flags.no_boxed",
+    "sources.oracle.filter_flags.oracle_true",
+    "sources.oracle.oracle_true",
+    "sources.oracle.path",
+    "sources.oracle.prompt_match",
+    "sources.oracle.raw_rows",
+    "sources.oracle.sampled",
+    "sources.oracle.sampled_quality_flags",
+    "sources.oracle.sampled_quality_flags.final_boxed_match",
+    "sources.oracle.sampled_quality_flags.prompt_match",
+    "sources.oracle.sampled_quality_flags.source_answer_match",
+    "sources.oracle.source_answer_match",
+    "sources.oracle.target",
+    "sources.oracle.train_joined",
+    "sources.srivath",
+    "sources.srivath.boxed_appended",
+    "sources.srivath.boxed_checked",
+    "sources.srivath.boxed_match",
+    "sources.srivath.boxed_mismatch",
+    "sources.srivath.enabled_pre_sample",
+    "sources.srivath.exists",
+    "sources.srivath.filter_flags",
+    "sources.srivath.oracle_true",
+    "sources.srivath.path",
+    "sources.srivath.prompt_match",
+    "sources.srivath.raw_rows",
+    "sources.srivath.sampled",
+    "sources.srivath.sampled_quality_flags",
+    "sources.srivath.sampled_quality_flags.boxed_appended",
+    "sources.srivath.sampled_quality_flags.prompt_match",
+    "sources.srivath.sampled_quality_flags.source_answer_match",
+    "sources.srivath.source_answer_match",
+    "sources.srivath.target",
+    "sources.srivath.train_joined",
+    "sources.sybyrr_beta",
+    "sources.sybyrr_beta.boxed_appended",
+    "sources.sybyrr_beta.boxed_checked",
+    "sources.sybyrr_beta.boxed_match",
+    "sources.sybyrr_beta.boxed_mismatch",
+    "sources.sybyrr_beta.enabled_pre_sample",
+    "sources.sybyrr_beta.exists",
+    "sources.sybyrr_beta.filter_flags",
+    "sources.sybyrr_beta.filter_flags.final_boxed_mismatch",
+    "sources.sybyrr_beta.oracle_true",
+    "sources.sybyrr_beta.path",
+    "sources.sybyrr_beta.prompt_match",
+    "sources.sybyrr_beta.raw_rows",
+    "sources.sybyrr_beta.sampled",
+    "sources.sybyrr_beta.sampled_quality_flags",
+    "sources.sybyrr_beta.sampled_quality_flags.final_boxed_match",
+    "sources.sybyrr_beta.sampled_quality_flags.multiple_boxed",
+    "sources.sybyrr_beta.sampled_quality_flags.prompt_match",
+    "sources.sybyrr_beta.sampled_quality_flags.source_answer_match",
+    "sources.sybyrr_beta.source_answer_match",
+    "sources.sybyrr_beta.target",
+    "sources.sybyrr_beta.train_joined",
+    "sources.tong",
+    "sources.tong.boxed_appended",
+    "sources.tong.boxed_checked",
+    "sources.tong.boxed_match",
+    "sources.tong.boxed_mismatch",
+    "sources.tong.enabled_pre_sample",
+    "sources.tong.exists",
+    "sources.tong.filter_flags",
+    "sources.tong.filter_flags.final_boxed_mismatch",
+    "sources.tong.oracle_true",
+    "sources.tong.path",
+    "sources.tong.prompt_match",
+    "sources.tong.raw_rows",
+    "sources.tong.sampled",
+    "sources.tong.sampled_quality_flags",
+    "sources.tong.sampled_quality_flags.final_boxed_match",
+    "sources.tong.sampled_quality_flags.multiple_boxed",
+    "sources.tong.sampled_quality_flags.prompt_match",
+    "sources.tong.sampled_quality_flags.source_answer_match",
+    "sources.tong.source_answer_match",
+    "sources.tong.target",
+    "sources.tong.train_joined"
+  ],
+  "numeric": {
+    "by_source.bankoglu": {
+      "count": 1,
+      "min": 96.0,
+      "max": 96.0,
+      "mean": 96.0
+    },
+    "by_source.donald": {
+      "count": 1,
+      "min": 180.0,
+      "max": 180.0,
+      "mean": 180.0
+    },
+    "by_source.llkh0a": {
+      "count": 1,
+      "min": 280.0,
+      "max": 280.0,
+      "mean": 280.0
+    },
+    "by_source.oracle": {
+      "count": 1,
+      "min": 360.0,
+      "max": 360.0,
+      "mean": 360.0
+    },
+    "by_source.srivath": {
+      "count": 1,
+      "min": 120.0,
+      "max": 120.0,
+      "mean": 120.0
+    },
+    "by_source.sybyrr_beta": {
+      "count": 1,
+      "min": 240.0,
+      "max": 240.0,
+      "mean": 240.0
+    },
+    "by_source.tong": {
+      "count": 1,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0
+    },
+    "by_task_type.bit_manipulation": {
+      "count": 1,
+      "min": 526.0,
+      "max": 526.0,
+      "mean": 526.0
+    },
+    "by_task_type.gravity_physics": {
+      "count": 1,
+      "min": 82.0,
+      "max": 82.0,
+      "mean": 82.0
+    },
+    "by_task_type.numeral_system": {
+      "count": 1,
+      "min": 96.0,
+      "max": 96.0,
+      "mean": 96.0
+    },
+    "by_task_type.symbolic_equation": {
+      "count": 1,
+      "min": 340.0,
+      "max": 340.0,
+      "mean": 340.0
+    },
+    "by_task_type.unit_conversion": {
+      "count": 1,
+      "min": 112.0,
+      "max": 112.0,
+      "mean": 112.0
+    },
+    "by_task_type.unknown": {
+      "count": 1,
+      "min": 15.0,
+      "max": 15.0,
+      "mean": 15.0
+    },
+    "quality_flags.boxed_appended": {
+      "count": 1,
+      "min": 300.0,
+      "max": 300.0,
+      "mean": 300.0
+    },
+    "quality_flags.final_boxed_match": {
+      "count": 1,
+      "min": 1056.0,
+      "max": 1056.0,
+      "mean": 1056.0
+    },
+    "quality_flags.multiple_boxed": {
+      "count": 1,
+      "min": 528.0,
+      "max": 528.0,
+      "mean": 528.0
+    },
+    "rows": {
+      "count": 1,
+      "min": 1356.0,
+      "max": 1356.0,
+      "mean": 1356.0
+    },
+    "seed": {
+      "count": 1,
+      "min": 20260606.0,
+      "max": 20260606.0,
+      "mean": 20260606.0
+    },
+    "sources.bankoglu.boxed_appended": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.bankoglu.boxed_checked": {
+      "count": 1,
+      "min": 987.0,
+      "max": 987.0,
+      "mean": 987.0
+    },
+    "sources.bankoglu.boxed_match": {
+      "count": 1,
+      "min": 987.0,
+      "max": 987.0,
+      "mean": 987.0
+    },
+    "sources.bankoglu.boxed_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.bankoglu.enabled_pre_sample": {
+      "count": 1,
+      "min": 987.0,
+      "max": 987.0,
+      "mean": 987.0
+    },
+    "sources.bankoglu.oracle_true": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.bankoglu.raw_rows": {
+      "count": 1,
+      "min": 987.0,
+      "max": 987.0,
+      "mean": 987.0
+    },
+    "sources.bankoglu.sampled": {
+      "count": 1,
+      "min": 96.0,
+      "max": 96.0,
+      "mean": 96.0
+    },
+    "sources.bankoglu.sampled_quality_flags.final_boxed_match": {
+      "count": 1,
+      "min": 96.0,
+      "max": 96.0,
+      "mean": 96.0
+    },
+    "sources.bankoglu.train_joined": {
+      "count": 1,
+      "min": 987.0,
+      "max": 987.0,
+      "mean": 987.0
+    },
+    "sources.donald.boxed_appended": {
+      "count": 1,
+      "min": 1595.0,
+      "max": 1595.0,
+      "mean": 1595.0
+    },
+    "sources.donald.boxed_checked": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.donald.boxed_match": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.donald.boxed_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.donald.enabled_pre_sample": {
+      "count": 1,
+      "min": 1595.0,
+      "max": 1595.0,
+      "mean": 1595.0
+    },
+    "sources.donald.oracle_true": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.donald.raw_rows": {
+      "count": 1,
+      "min": 1595.0,
+      "max": 1595.0,
+      "mean": 1595.0
+    },
+    "sources.donald.sampled": {
+      "count": 1,
+      "min": 180.0,
+      "max": 180.0,
+      "mean": 180.0
+    },
+    "sources.donald.sampled_quality_flags.boxed_appended": {
+      "count": 1,
+      "min": 180.0,
+      "max": 180.0,
+      "mean": 180.0
+    },
+    "sources.donald.train_joined": {
+      "count": 1,
+      "min": 1595.0,
+      "max": 1595.0,
+      "mean": 1595.0
+    },
+    "sources.llkh0a.boxed_appended": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.llkh0a.boxed_checked": {
+      "count": 1,
+      "min": 3908.0,
+      "max": 3908.0,
+      "mean": 3908.0
+    },
+    "sources.llkh0a.boxed_match": {
+      "count": 1,
+      "min": 3793.0,
+      "max": 3793.0,
+      "mean": 3793.0
+    },
+    "sources.llkh0a.boxed_mismatch": {
+      "count": 1,
+      "min": 115.0,
+      "max": 115.0,
+      "mean": 115.0
+    },
+    "sources.llkh0a.enabled_pre_sample": {
+      "count": 1,
+      "min": 3793.0,
+      "max": 3793.0,
+      "mean": 3793.0
+    },
+    "sources.llkh0a.filter_flags.final_boxed_mismatch": {
+      "count": 1,
+      "min": 115.0,
+      "max": 115.0,
+      "mean": 115.0
+    },
+    "sources.llkh0a.filter_flags.no_boxed": {
+      "count": 1,
+      "min": 2.0,
+      "max": 2.0,
+      "mean": 2.0
+    },
+    "sources.llkh0a.oracle_true": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.llkh0a.raw_rows": {
+      "count": 1,
+      "min": 3910.0,
+      "max": 3910.0,
+      "mean": 3910.0
+    },
+    "sources.llkh0a.sampled": {
+      "count": 1,
+      "min": 280.0,
+      "max": 280.0,
+      "mean": 280.0
+    },
+    "sources.llkh0a.sampled_quality_flags.final_boxed_match": {
+      "count": 1,
+      "min": 280.0,
+      "max": 280.0,
+      "mean": 280.0
+    },
+    "sources.llkh0a.sampled_quality_flags.multiple_boxed": {
+      "count": 1,
+      "min": 208.0,
+      "max": 208.0,
+      "mean": 208.0
+    },
+    "sources.llkh0a.train_joined": {
+      "count": 1,
+      "min": 3910.0,
+      "max": 3910.0,
+      "mean": 3910.0
+    },
+    "sources.oracle.boxed_appended": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.oracle.boxed_checked": {
+      "count": 1,
+      "min": 8984.0,
+      "max": 8984.0,
+      "mean": 8984.0
+    },
+    "sources.oracle.boxed_match": {
+      "count": 1,
+      "min": 8480.0,
+      "max": 8480.0,
+      "mean": 8480.0
+    },
+    "sources.oracle.boxed_mismatch": {
+      "count": 1,
+      "min": 504.0,
+      "max": 504.0,
+      "mean": 504.0
+    },
+    "sources.oracle.enabled_pre_sample": {
+      "count": 1,
+      "min": 7908.0,
+      "max": 7908.0,
+      "mean": 7908.0
+    },
+    "sources.oracle.filter_flags.final_boxed_mismatch": {
+      "count": 1,
+      "min": 504.0,
+      "max": 504.0,
+      "mean": 504.0
+    },
+    "sources.oracle.filter_flags.no_boxed": {
+      "count": 1,
+      "min": 72.0,
+      "max": 72.0,
+      "mean": 72.0
+    },
+    "sources.oracle.filter_flags.oracle_true": {
+      "count": 1,
+      "min": 692.0,
+      "max": 692.0,
+      "mean": 692.0
+    },
+    "sources.oracle.oracle_true": {
+      "count": 1,
+      "min": 692.0,
+      "max": 692.0,
+      "mean": 692.0
+    },
+    "sources.oracle.raw_rows": {
+      "count": 1,
+      "min": 9056.0,
+      "max": 9056.0,
+      "mean": 9056.0
+    },
+    "sources.oracle.sampled": {
+      "count": 1,
+      "min": 360.0,
+      "max": 360.0,
+      "mean": 360.0
+    },
+    "sources.oracle.sampled_quality_flags.final_boxed_match": {
+      "count": 1,
+      "min": 360.0,
+      "max": 360.0,
+      "mean": 360.0
+    },
+    "sources.oracle.train_joined": {
+      "count": 1,
+      "min": 9056.0,
+      "max": 9056.0,
+      "mean": 9056.0
+    },
+    "sources.srivath.boxed_appended": {
+      "count": 1,
+      "min": 9500.0,
+      "max": 9500.0,
+      "mean": 9500.0
+    },
+    "sources.srivath.boxed_checked": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.srivath.boxed_match": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.srivath.boxed_mismatch": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.srivath.enabled_pre_sample": {
+      "count": 1,
+      "min": 9500.0,
+      "max": 9500.0,
+      "mean": 9500.0
+    },
+    "sources.srivath.oracle_true": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.srivath.raw_rows": {
+      "count": 1,
+      "min": 9500.0,
+      "max": 9500.0,
+      "mean": 9500.0
+    },
+    "sources.srivath.sampled": {
+      "count": 1,
+      "min": 120.0,
+      "max": 120.0,
+      "mean": 120.0
+    },
+    "sources.srivath.sampled_quality_flags.boxed_appended": {
+      "count": 1,
+      "min": 120.0,
+      "max": 120.0,
+      "mean": 120.0
+    },
+    "sources.srivath.train_joined": {
+      "count": 1,
+      "min": 9500.0,
+      "max": 9500.0,
+      "mean": 9500.0
+    },
+    "sources.sybyrr_beta.boxed_appended": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.sybyrr_beta.boxed_checked": {
+      "count": 1,
+      "min": 771.0,
+      "max": 771.0,
+      "mean": 771.0
+    },
+    "sources.sybyrr_beta.boxed_match": {
+      "count": 1,
+      "min": 691.0,
+      "max": 691.0,
+      "mean": 691.0
+    },
+    "sources.sybyrr_beta.boxed_mismatch": {
+      "count": 1,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0
+    },
+    "sources.sybyrr_beta.enabled_pre_sample": {
+      "count": 1,
+      "min": 691.0,
+      "max": 691.0,
+      "mean": 691.0
+    },
+    "sources.sybyrr_beta.filter_flags.final_boxed_mismatch": {
+      "count": 1,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0
+    },
+    "sources.sybyrr_beta.oracle_true": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.sybyrr_beta.raw_rows": {
+      "count": 1,
+      "min": 771.0,
+      "max": 771.0,
+      "mean": 771.0
+    },
+    "sources.sybyrr_beta.sampled": {
+      "count": 1,
+      "min": 240.0,
+      "max": 240.0,
+      "mean": 240.0
+    },
+    "sources.sybyrr_beta.sampled_quality_flags.final_boxed_match": {
+      "count": 1,
+      "min": 240.0,
+      "max": 240.0,
+      "mean": 240.0
+    },
+    "sources.sybyrr_beta.sampled_quality_flags.multiple_boxed": {
+      "count": 1,
+      "min": 240.0,
+      "max": 240.0,
+      "mean": 240.0
+    },
+    "sources.sybyrr_beta.train_joined": {
+      "count": 1,
+      "min": 771.0,
+      "max": 771.0,
+      "mean": 771.0
+    },
+    "sources.tong.boxed_appended": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.tong.boxed_checked": {
+      "count": 1,
+      "min": 1602.0,
+      "max": 1602.0,
+      "mean": 1602.0
+    },
+    "sources.tong.boxed_match": {
+      "count": 1,
+      "min": 1364.0,
+      "max": 1364.0,
+      "mean": 1364.0
+    },
+    "sources.tong.boxed_mismatch": {
+      "count": 1,
+      "min": 238.0,
+      "max": 238.0,
+      "mean": 238.0
+    },
+    "sources.tong.enabled_pre_sample": {
+      "count": 1,
+      "min": 1364.0,
+      "max": 1364.0,
+      "mean": 1364.0
+    },
+    "sources.tong.filter_flags.final_boxed_mismatch": {
+      "count": 1,
+      "min": 238.0,
+      "max": 238.0,
+      "mean": 238.0
+    },
+    "sources.tong.oracle_true": {
+      "count": 1,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "sources.tong.raw_rows": {
+      "count": 1,
+      "min": 1602.0,
+      "max": 1602.0,
+      "mean": 1602.0
+    },
+    "sources.tong.sampled": {
+      "count": 1,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0
+    },
+    "sources.tong.sampled_quality_flags.final_boxed_match": {
+      "count": 1,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0
+    },
+    "sources.tong.sampled_quality_flags.multiple_boxed": {
+      "count": 1,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0
+    },
+    "sources.tong.train_joined": {
+      "count": 1,
+      "min": 1602.0,
+      "max": 1602.0,
+      "mean": 1602.0
+    }
+  }
+}
