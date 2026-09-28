@@ -1,4 +1,4 @@
-# Nemotron Evaluation Records
+# [2026-06] Nemotron Evaluation Records
 
 This small companion repository is a content-minimized index of the local
 Nemotron competition research reports. It keeps the shape of the work visible
